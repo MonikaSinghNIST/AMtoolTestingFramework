@@ -1,0 +1,614 @@
+<!doctype html>
+<head>
+
+ 	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CFTT Federated Testing CD - Home Page</title>
+<link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/main_style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/layout.css" media="screen" />
+	
+	<script type="text/javascript" src="../includes/loader.js"></script>
+	
+	<script>
+	google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawTrendlines);
+
+function drawTrendlines() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('timeofday', 'Time of Day');
+      data.addColumn('number', 'ssdeep');
+      data.addColumn('number', 'sdhash');
+
+      data.addRows([
+        [{v: [8, 0, 0], f: '8 am'}, 1, .25],
+        [{v: [9, 0, 0], f: '9 am'}, 2, .5],
+        [{v: [10, 0, 0], f:'10 am'}, 3, 1],
+        [{v: [11, 0, 0], f: '11 am'}, 4, 2.25],
+        [{v: [12, 0, 0], f: '12 pm'}, 5, 2.25],
+        [{v: [13, 0, 0], f: '1 pm'}, 6, 3],
+        [{v: [14, 0, 0], f: '2 pm'}, 7, 4],
+        [{v: [15, 0, 0], f: '3 pm'}, 8, 5.25],
+        [{v: [16, 0, 0], f: '4 pm'}, 9, 7.5],
+        [{v: [17, 0, 0], f: '5 pm'}, 10, 10],
+      ]);
+
+      var options = {
+        title: 'Motivation and Energy Level Throughout the Day',
+        trendlines: {
+          0: {type: 'linear', lineWidth: 5, opacity: .3},
+          1: {type: 'exponential', lineWidth: 10, opacity: .3}
+        },
+        hAxis: {
+          title: 'Time of Day',
+          format: 'h:mm a',
+          viewWindow: {
+            min: [7, 30, 0],
+            max: [17, 30, 0]
+          }
+        },
+        vAxis: {
+          title: 'Rating (scale of 1-10)'
+        }
+      };
+
+      var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+		
+	</script>
+	
+	
+	 
+	
+	 <script type="text/javascript">
+		
+		 var ssdeepJpegFSCORE="0.74";
+		 var ssdeepBmpFSCORE="0.8";
+		 var ssdeepGifFSCORE="0.76";
+		 var ssdeepTiffFSCORE="0.87";
+		 var sdhashJpegFSCORE="0.83";
+		 var sdhashBmpFSCORE="0.82";
+		 var sdhashGifFSCORE="0.83";
+		 var sdhashTiffFSCORE="0.9";
+		
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        /*var data = google.visualization.arrayToDataTable([
+          ['F-score', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', 0.48, 0.40, 0],
+          ['GIF', 0.47, 0.43, 0],
+          ['BMP', 0, 0, 0],
+          ['TIFF', 0.41, 0.70, 0]
+        ]);*/
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['F-score (DOCX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', Number(ssdeepJpegFSCORE), Number(sdhashJpegFSCORE), 0],
+          ['BMP', Number(ssdeepBmpFSCORE), Number(sdhashBmpFSCORE), 0],
+          ['GIF', Number(ssdeepGifFSCORE), Number(sdhashGifFSCORE), 0],
+          ['TIFF', Number(ssdeepTiffFSCORE), Number(sdhashTiffFSCORE), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+    
+    
+    <script type="text/javascript">
+		
+		 var ssdeepJpegMCC="0.73";
+		 var ssdeepBmpMCC="0.8";
+		 var ssdeepGifMCC="0.73";
+		 var ssdeepTiffMCC="0.86";
+		 var sdhashJpegMCC="0.81";
+		 var sdhashBmpMCC="0.8";
+		 var sdhashGifMCC="0.81";
+		 var sdhashTiffMCC="0.89";
+		
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['MCC (DOCX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', Number(ssdeepJpegMCC), Number(sdhashJpegMCC), 0],
+          ['BMP', Number(ssdeepBmpMCC), Number(sdhashBmpMCC), 0],
+          ['GIF', Number(ssdeepGifMCC), Number(sdhashGifMCC), 0],
+          ['TIFF', Number(ssdeepTiffMCC), Number(sdhashTiffMCC), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('MCC_chart'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+
+
+
+<script type="text/javascript">
+		
+		 var ssdeepJpegPRE="0.86";
+		 var ssdeepBmpPRE="0.94";
+		 var ssdeepGifPRE="0.83";
+		 var ssdeepTiffPRE="0.95";
+		 var sdhashJpegPRE="0.78";
+		 var sdhashBmpPRE="0.79";
+		 var sdhashGifPRE="0.76";
+		 var sdhashTiffPRE="0.82";
+		
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        /*var data = google.visualization.arrayToDataTable([
+          ['F-score', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', 0.48, 0.40, 0],
+          ['GIF', 0.47, 0.43, 0],
+          ['BMP', 0, 0, 0],
+          ['TIFF', 0.41, 0.70, 0]
+        ]);*/
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['PRECISION (DOCX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', Number(ssdeepJpegPRE), Number(sdhashJpegPRE), 0],
+          ['BMP', Number(ssdeepBmpPRE), Number(sdhashBmpPRE), 0],
+          ['GIF', Number(ssdeepGifPRE), Number(sdhashGifPRE), 0],
+          ['TIFF', Number(ssdeepTiffPRE), Number(sdhashTiffPRE), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('PRE_chart'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+
+    
+	
+	
+	
+	
+	<script type="text/javascript">
+		
+		 var ssdeepPPTXJpegFSCORE="0.43";
+		 var ssdeepPPTXBmpFSCORE="0.83";
+		 var ssdeepPPTXGifFSCORE="0.45";
+		 var ssdeepPPTXTiffFSCORE="0.77";
+		 var sdhashPPTXJpegFSCORE="0.36";
+		 var sdhashPPTXBmpFSCORE="0.62";
+		 var sdhashPPTXGifFSCORE="0.35";
+		 var sdhashPPTXTiffFSCORE="0.62";
+		
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        /*var data = google.visualization.arrayToDataTable([
+          ['F-score', 'ssdeepPPTX', 'sdhash', 'mrsh'],
+          ['JPEG', 0.48, 0.40, 0],
+          ['GIF', 0.47, 0.43, 0],
+          ['BMP', 0, 0, 0],
+          ['TIFF', 0.41, 0.70, 0]
+        ]);*/
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['F-score (PPTX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', Number(ssdeepPPTXJpegFSCORE), Number(sdhashPPTXJpegFSCORE), 0],
+          ['BMP', Number(ssdeepPPTXBmpFSCORE), Number(sdhashPPTXBmpFSCORE), 0],
+          ['GIF', Number(ssdeepPPTXGifFSCORE), Number(sdhashPPTXGifFSCORE), 0],
+          ['TIFF', Number(ssdeepPPTXTiffFSCORE), Number(sdhashPPTXTiffFSCORE), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material_pptx'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+    
+    
+    <script type="text/javascript">
+		
+		 var ssdeepPPTXJpegMCC="0.37";
+		 var ssdeepPPTXBmpMCC="0.81";
+		 var ssdeepPPTXGifMCC="0.4";
+		 var ssdeepPPTXTiffMCC="0.74";
+		 var sdhashPPTXJpegMCC="0.28";
+		 var sdhashPPTXBmpMCC="0.58";
+		 var sdhashPPTXGifMCC="0.27";
+		 var sdhashPPTXTiffMCC="0.58";
+		
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['MCC (PPTX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', Number(ssdeepPPTXJpegMCC), Number(sdhashPPTXJpegMCC), 0],
+          ['BMP', Number(ssdeepPPTXBmpMCC), Number(sdhashPPTXBmpMCC), 0],
+          ['GIF', Number(ssdeepPPTXGifMCC), Number(sdhashPPTXGifMCC), 0],
+          ['TIFF', Number(ssdeepPPTXTiffMCC), Number(sdhashPPTXTiffMCC), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('MCC_chart_pptx'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+
+
+
+<script type="text/javascript">
+		
+		 var ssdeepPPTXJpegPRE="0.45";
+		 var ssdeepPPTXBmpPRE="0.8";
+		 var ssdeepPPTXGifPRE="0.5";
+		 var ssdeepPPTXTiffPRE="0.8";
+		 var sdhashPPTXJpegPRE="0.33";
+		 var sdhashPPTXBmpPRE="0.52";
+		 var sdhashPPTXGifPRE="0.32";
+		 var sdhashPPTXTiffPRE="0.53";
+		
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        /*var data = google.visualization.arrayToDataTable([
+          ['F-score', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', 0.48, 0.40, 0],
+          ['GIF', 0.47, 0.43, 0],
+          ['BMP', 0, 0, 0],
+          ['TIFF', 0.41, 0.70, 0]
+        ]);*/
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['PRECISION (PPTX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', Number(ssdeepPPTXJpegPRE), Number(sdhashPPTXJpegPRE), 0],
+          ['BMP', Number(ssdeepPPTXBmpPRE), Number(sdhashPPTXBmpPRE), 0],
+          ['GIF', Number(ssdeepPPTXGifPRE), Number(sdhashPPTXGifPRE), 0],
+          ['TIFF', Number(ssdeepPPTXTiffPRE), Number(sdhashPPTXTiffPRE), 0]
+			]);
+
+
+			var options = {
+			  chart: {
+				title: ' ',
+				subtitle: ' ',
+			  }
+			};
+
+			var chart = new google.charts.Bar(document.getElementById('PRE_chart_pptx'));
+
+			chart.draw(data, google.charts.Bar.convertOptions(options));
+		  }
+		</script>
+
+	
+	
+	
+	<script type="text/javascript">
+		
+		 var ssdeepJpegRECALL="0.66";
+		 var ssdeepBmpRECALL="0.7";
+		 var ssdeepGifRECALL="0.69";
+		 var ssdeepTiffRECALL="0.81";
+		 var sdhashJpegRECALL="0.88";
+		 var sdhashBmpRECALL="0.86";
+		 var sdhashGifRECALL="0.91";
+		 var sdhashTiffRECALL="0.99";
+		
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        /*var data = google.visualization.arrayToDataTable([
+          ['F-score', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', 0.48, 0.40, 0],
+          ['GIF', 0.47, 0.43, 0],
+          ['BMP', 0, 0, 0],
+          ['TIFF', 0.41, 0.70, 0]
+        ]);*/
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['RECALL (DOCX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', Number(ssdeepJpegRECALL), Number(sdhashJpegRECALL), 0],
+          ['BMP', Number(ssdeepBmpRECALL), Number(sdhashBmpRECALL), 0],
+          ['GIF', Number(ssdeepGifRECALL), Number(sdhashGifRECALL), 0],
+          ['TIFF', Number(ssdeepTiffRECALL), Number(sdhashTiffRECALL), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('RECALL_chart'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+    
+<script type="text/javascript">
+		
+		 var ssdeepPPTXJpegRECALL="0.41";
+		 var ssdeepPPTXBmpRECALL="0.86";
+		 var ssdeepPPTXGifRECALL="0.42";
+		 var ssdeepPPTXTiffRECALL="0.74";
+		 var sdhashPPTXJpegRECALL="0.4";
+		 var sdhashPPTXBmpRECALL="0.75";
+		 var sdhashPPTXGifRECALL="0.39";
+		 var sdhashPPTXTiffRECALL="0.75";
+		
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        /*var data = google.visualization.arrayToDataTable([
+          ['F-score', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', 0.48, 0.40, 0],
+          ['GIF', 0.47, 0.43, 0],
+          ['BMP', 0, 0, 0],
+          ['TIFF', 0.41, 0.70, 0]
+        ]);*/
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['RECALL (PPTX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', Number(ssdeepPPTXJpegRECALL), Number(sdhashPPTXJpegRECALL), 0],
+          ['BMP', Number(ssdeepPPTXBmpRECALL), Number(sdhashPPTXBmpRECALL), 0],
+          ['GIF', Number(ssdeepPPTXGifRECALL), Number(sdhashPPTXGifRECALL), 0],
+          ['TIFF', Number(ssdeepPPTXTiffRECALL), Number(sdhashPPTXTiffRECALL), 0]
+			]);
+
+
+			var options = {
+			  chart: {
+				title: ' ',
+				subtitle: ' ',
+			  }
+			};
+
+			var chart = new google.charts.Bar(document.getElementById('RECALL_chart_pptx'));
+
+			chart.draw(data, google.charts.Bar.convertOptions(options));
+		  }
+		</script>
+
+    
+    
+	
+	<script>
+function redirect(){
+	
+	var setType = document.getElementById("setType").value;
+	var tool = document.getElementById("tool").value;
+	var object = document.getElementById("objectType").value;
+	
+  if((setType == "PPTX") && (tool== "ssdeep") && (object=="JPEG")) {
+   document.getElementById('frm').action = 'ssdeepPPTXJpeg.php';
+  }else if((setType == "DOCX") && (tool== "ssdeep") && (object=="JPEG")) {
+   document.getElementById('frm').action = 'ssdeepDOCXJpeg.php';
+  }else if((setType == "PPTX") && (tool== "sdhash") && (object=="JPEG")) {
+   document.getElementById('frm').action = 'sdhashPPTXJpeg.php';
+  }else if((setType == "DOCX") && (tool== "sdhash") && (object=="JPEG")) {
+   document.getElementById('frm').action = 'sdhashDOCXJpeg.php';
+  }
+}
+</script>
+	
+	
+	
+</head>
+
+
+<body id="menu1"> 
+	<div id="mainWrapper">
+		<div id="topBannerContainer">
+			<div id="logoContainer">
+		<!--	<a class="logo" title="National Institute of Standards and Technology" href="http://www.nist.gov/index.html">National Institute of Standards and Technology</a>
+			<a class="sub-logo" title="Health Information Technology" href="http://www.nist.gov/healthcare/">Health Information Technology</a>-->
+				<img src="../images/banner.png" alt="CFTT Federated Testing - NIST">            
+			</div>
+            <!-- Menu Starts-->
+			<div id="menuContainer">
+				
+			  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Show hide popover
+        $(".dropdown").click(function(){
+            $(this).find(".dropdown-menu").slideToggle("fast");
+        });
+    });
+    $(document).on("click", function(event){
+        var $trigger = $(".dropdown");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+            $(".dropdown-menu").slideUp("fast");
+        }            
+    });
+</script>
+
+<ul id="menu"> <li><a id="menu1nav" href="Home.php">Home</a></li> <li><a id="menu3nav" href="about.php">About</a></li> <li><a id="menu4nav" href="contacts.php">Contacts</a></li></ul>			</div>
+            <!-- Menu Ends-->
+		</div>
+		<!-- TopBanner Ends-->
+		<!-- Main Content Starts-->	
+		<div id="subContentContainer">
+		  <div id="leftContent">
+		    <div id="leftLinks">
+			  <div>
+				  
+			        	    </div>
+		    </div>
+		  </div>  
+          	
+    	  <div id="">
+    	    <div id="breadcrumb">Embedded Object Identification ➤ <a href="evaluateEmbeddedObject.php">Test Cases</a> ➤ Single Common Object Identification ➤ <a href="result_report_single_common_object_based_search.php?threshold=22">Comparative Assessment</a></div>
+			  <form id="frm" method="get" action="javascript:redirect();">
+				 
+                 <table  style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'">
+					 					 
+					 
+                 <tr style="font-family: Arial, 'Century Gothic'; background-color: #0e375d; color:white; text-align: center;align-content: center;align-items: center;width: 1000px;"><td colspan="2" style="background-color: #0e375d;color:white; font-size: 18px; height: 30px;text-align:left; vertical-align: middle;padding-top: 10px;padding-left: 10px;">Single Common Object Identification Test</td></tr>
+				
+					 <tr class=""><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.</td>
+                 <td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;">This report presents the results of the "Single Common Object Identification Test". This test aims to identify the ability of existing schemes to correlate the files containing a common object.</td></tr>	 
+					 
+					 
+                 <tr class="push"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.</td>
+                 <td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;">Test is performed on the data-set of:<br><br>
+                   <strong>i.</strong> <!--0 Docx file(0 docx files with existing images and 0 without any other image except the embedded image) embedded with 0 Jpeg, 0 docx files embedded with  0 Bmp, 0 docx files embedded with  0 Tiff and 0 docx files embedded with  0 Gif images.-->
+					 
+					 100 Docx file embedded with 10 Jpeg, 100 docx files embedded with 10 Bmp, 100 docx files embedded with 10 Tiff and 100 docx files embedded with 10 Gif images. 
+                 <br>
+                 
+                 <strong>ii.</strong>. 100 pptx files embedded with 10 Jpeg, 100 pptx files embedded with 10 Bmp, 100 pptx files embedded with 10 Tiff and 100 pptx files embedded with 10 Gif images.
+                 
+                 </td></tr>
+                 
+                                  <tr><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;</td><td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;">Total number of comparision performed by each scheme <br> <strong>i.</strong> for docx files: 40,000<br> 
+                   <strong>ii.</strong> for pptx: 40,000 </td></tr>
+                 
+                 
+                 
+                 
+                                   
+                
+                 
+                 
+                                   <tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;</td>
+                  <td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;">Results produced by ssdeep are more precise than sdhash on an avg. for DOCX. Shown below in fig below.</td></tr>
+                 <tr align="center" style="text-align:center;"><td colspan="2" align="center" style="text-align:center"><div id="PRE_chart" style="width: 600px; height: 300px;text-align:center;margin-left:86px;" align="center" ></div></td></tr>
+					 
+				<tr><td colspan="2"><div id="PRE_chart_pptx" style="width: 600px; height: 300px;margin-left:86px;"></div></td></tr> 
+                 
+                 <tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.&nbsp;</td><td style="align-content: space-around;text-align: justify;">Results produced by ssdeep are more precise than sdhash on an avg. for DOCX.</td></tr>
+					 
+					 
+					 
+				
+                  
+                
+                 
+                 
+                                   <tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.&nbsp;</td>
+                  <td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;">Results produced by sdhash has better recall rates than ssdeep on an avg. DOCX Shown below in fig below.</td></tr>
+                 <tr align="center" style="text-align:center;"><td colspan="2" align="center" style="text-align:center"><div id="RECALL_chart" style="width: 600px; height: 300px;text-align:center;margin-left:86px;" align="center" ></div></td></tr>
+					 
+				<tr><td colspan="2"><div id="RECALL_chart_pptx" style="width: 600px; height: 300px;margin-left:86px;"></div></td></tr> 
+                 
+                 <tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.&nbsp;</td><td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;">Results produced by sdhash has better recall rates than ssdeep on an avg. DOCX</td></tr>
+                 
+					 
+					 
+                 
+                 
+                 
+                  <tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.&nbsp;</td><td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;">In terms of both Precision and recall sdhash is better than ssdeep. Shown in figure below.</td></tr>
+                 <tr><td colspan="2"><div id="columnchart_material" style="width: 600px; height: 300px;margin-left:86px;"></div></td></tr>
+				 <tr><td colspan="2"><div id="columnchart_material_pptx" style="width: 600px; height: 300px;margin-left:86px;"></div></td></tr>
+                 
+                 
+                 <tr style="text-align:justify;"><td>9.&nbsp;</td><td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;">Figure below shows the Matthews correlation coefficient (MCC) comparision of both ssdeep and sdhash.</td></tr>
+                 <tr><td colspan="2"><div id="MCC_chart" style="width: 600px; height: 300px;margin-left:86px;"></div></div></td></tr>
+			     <tr><td colspan="2"><div id="MCC_chart_pptx" style="width: 600px; height: 300px;margin-left:86px;"></div></div></td></tr>
+                 
+      
+      <tr align="right"><td  colspan="2" align="right" ><input type="submit" style="margin-left:50%" value="Back"  onClick="location.href = 'result_report_single_common_object_based_search.php?threshold=22';"></td></tr>           
+                 
+                 
+                 </table>
+      	  
+			  </form>
+			  
+			  
+			  <!--<div id="boxContainer" style="font-size: 2em"><a href="">DOCX</a></div>
+			  
+			  <div id="boxContainer" style="font-size: 2em"><a href="run.php">PPTX</a></div>
+			  
+			  <div id="boxContainer" style="font-size: 2em"><a href="">PPT</a></div>-->
+			  
+			 
+<!--		      <h1>Welcome to the CFTT Federated Testing CD</h1>-->
+			  
+			  
+			 
+			  
+                  
+		  </div>
+		<!-- Main Content Ends-->
+		</div>
+		<div class="push"></div>
+	</div>
+	
+	
+	<div style="color: brown;">
+		 
+	</div>
+    <!-- Footer Starts-->
+	    <!-- Footer Ends-->
+</body>
+</html>

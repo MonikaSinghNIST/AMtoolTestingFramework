@@ -1,0 +1,2 @@
+ssdeep,1.1--blocksize:hash:hash,filename
+12288:ADkF/1hvbBNvvvrid9D6NF+p9PKdPYxyt7DOk8qj+:i9PFx8v+,"C:\National Institute of Information Technology\Evaluation Scheme\Schemes\ssdeep\ssdeep-2.14.1-win32-binary\ssdeep-2.14.1\003142.text"

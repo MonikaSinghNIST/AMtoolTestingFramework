@@ -1,0 +1,573 @@
+<!doctype html>
+<head>
+	
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CFTT Federated Testing CD - Home Page</title>
+<link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/main_style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/layout.css" media="screen" />
+	
+	<script type="text/javascript" src="../includes/loader.js"></script>
+	
+	<script>
+	google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawTrendlines);
+
+function drawTrendlines() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('timeofday', 'Time of Day');
+      data.addColumn('number', 'ssdeep');
+      data.addColumn('number', 'sdhash');
+
+      data.addRows([
+        [{v: [8, 0, 0], f: '8 am'}, 1, .25],
+        [{v: [9, 0, 0], f: '9 am'}, 2, .5],
+        [{v: [10, 0, 0], f:'10 am'}, 3, 1],
+        [{v: [11, 0, 0], f: '11 am'}, 4, 2.25],
+        [{v: [12, 0, 0], f: '12 pm'}, 5, 2.25],
+        [{v: [13, 0, 0], f: '1 pm'}, 6, 3],
+        [{v: [14, 0, 0], f: '2 pm'}, 7, 4],
+        [{v: [15, 0, 0], f: '3 pm'}, 8, 5.25],
+        [{v: [16, 0, 0], f: '4 pm'}, 9, 7.5],
+        [{v: [17, 0, 0], f: '5 pm'}, 10, 10],
+      ]);
+
+      var options = {
+        title: 'Motivation and Energy Level Throughout the Day',
+        trendlines: {
+          0: {type: 'linear', lineWidth: 5, opacity: .3},
+          1: {type: 'exponential', lineWidth: 10, opacity: .3}
+        },
+        hAxis: {
+          title: 'Time of Day',
+          format: 'h:mm a',
+          viewWindow: {
+            min: [7, 30, 0],
+            max: [17, 30, 0]
+          }
+        },
+        vAxis: {
+          title: 'Rating (scale of 1-10)'
+        }
+      };
+
+      var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+		
+	</script>
+	
+	
+		 <script type="text/javascript">
+		
+		 var ssdeepSeqFPR="0";
+		 var ssdeepRanFPR="0";
+		 var sdhashSeqFPR="0";
+		 var sdhashRanFPR="0";
+		 
+		// alert(sdhashRanFPR);
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+         
+		  var data = google.visualization.arrayToDataTable([
+          ['False Positive Rate (Text)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['Sequential', Number(ssdeepSeqFPR), Number(sdhashSeqFPR), 0],
+          ['Random', Number(ssdeepRanFPR), Number(sdhashRanFPR), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('FPR_chart'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+
+
+		
+	
+	<script type="text/javascript">
+
+		 var ssdeepSeqFNR="0.02";
+		 var ssdeepRanFNR="0.02";
+		 var sdhashSeqFNR="0.01";
+		 var sdhashRanFNR="0.01";
+
+		
+		 var ssdeepSeqFNRDocx="0.03531";
+		 var ssdeepRanFNRDocx="0.03719";
+		 var sdhashSeqFNRDocx="0.02219";
+		 var sdhashRanFNRDocx="0.02229";
+		
+	 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+         
+		  var data = google.visualization.arrayToDataTable([
+          ['False Negative Rate (Text) \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 False Negative Rate (Docx)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['Sequential', Number(ssdeepSeqFNR), Number(sdhashSeqFNR), 0],
+          ['Random', Number(ssdeepRanFNR), Number(sdhashRanFNR), 0],
+		  ['  ', 0, 0, 0],  
+		  ['Sequential', Number(ssdeepSeqFNRDocx), Number(sdhashSeqFNRDocx), 0],
+          ['Random', Number(ssdeepRanFNRDocx), Number(sdhashRanFNRDocx), 0]
+        ]);
+		
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('FNR_chart'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+		
+    </script>
+
+		
+	<script type="text/javascript">
+
+		 var ssdeepSeqFPR="0";
+		 var ssdeepRanFPR="0";
+		 var sdhashSeqFPR="0";
+		 var sdhashRanFPR="0";
+
+		
+		 var ssdeepSeqFPRDocx="0.00125";
+		 var ssdeepRanFPRDocx="0.00208";
+		 var sdhashSeqFPRDocx="0.05583";
+		 var sdhashRanFPRDocx="0.04615";
+		
+	 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+         
+		  var data = google.visualization.arrayToDataTable([
+          ['False Positive Rate (Docx) \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 False Positive Rate (Docx)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['Sequential', Number(ssdeepSeqFPR), Number(sdhashSeqFPR), 0],
+          ['Random', Number(ssdeepRanFPR), Number(sdhashRanFPR), 0],
+		  ['  ', 0, 0, 0],  
+		  ['Sequential', Number(ssdeepSeqFPRDocx), Number(sdhashSeqFPRDocx), 0],
+          ['Random', Number(ssdeepRanFPRDocx), Number(sdhashRanFPRDocx), 0]
+        ]);
+		
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('FPR_chart'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+		
+    </script>
+	
+	
+	
+	
+	
+	
+
+	 
+	
+	 <script type="text/javascript">
+		
+		 var ssdeepSeqFSCORE="0.67";
+		 var ssdeepRanFSCORE="0.68";
+		 var sdhashSeqFSCORE="0.87";
+		 var sdhashRanFSCORE="0.87";
+		 
+		 var ssdeepSeqFSCOREDocx="0.45";
+		 var ssdeepRanFSCOREDocx="0.39";
+		 var sdhashSeqFSCOREDocx="0.42";
+		 var sdhashRanFSCOREDocx="0.45";
+
+		 
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        /*var data = google.visualization.arrayToDataTable([
+          ['F-score', 'ssdeep', 'sdhash', 'mrsh'],
+          ['JPEG', 0.48, 0.40, 0],
+          ['GIF', 0.47, 0.43, 0],
+          ['BMP', 0, 0, 0],
+          ['TIFF', 0.41, 0.70, 0]
+        ]);*/
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['F-score (Text)  \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 F-score (Docx)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['Sequential', Number(ssdeepSeqFSCORE), Number(sdhashSeqFSCORE), 0],
+          ['Random', Number(ssdeepRanFSCORE), Number(sdhashRanFSCORE), 0],
+		  ['  ', 0, 0, 0],
+          ['Sequential', Number(ssdeepSeqFSCOREDocx), Number(sdhashSeqFSCOREDocx), 0],
+          ['Random', Number(ssdeepRanFSCOREDocx), Number(sdhashRanFSCOREDocx), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('Fscore'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+    
+    
+    <script type="text/javascript">
+		
+		 var ssdeepSeqMCC="0.7";
+		 var ssdeepRanMCC="0.71";
+		 var sdhashSeqMCC="0.88";
+		 var sdhashRanMCC="0.88";
+				
+		 var ssdeepSeqMCCDocx="0.51";
+		 var ssdeepRanMCCDocx="0.46";
+		 var sdhashSeqMCCDocx="0.39";
+		 var sdhashRanMCCDocx="0.42";
+		 
+
+		 
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['MCC (Text) \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 MCC (DOCX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['Sequential', Number(ssdeepSeqMCC), Number(sdhashSeqMCC), 0],
+          ['Random', Number(ssdeepRanMCC), Number(sdhashRanMCC), 0],
+		  ['  ', 0, 0, 0],
+          ['Sequential', Number(ssdeepSeqMCCDocx), Number(sdhashSeqMCCDocx), 0],
+          ['Random', Number(ssdeepRanMCCDocx), Number(sdhashRanMCCDocx), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('MCC_chart'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+    
+    
+    
+
+
+
+<script type="text/javascript">
+		
+		 var ssdeepSeqPRE="1";
+		 var ssdeepRanPRE="1";
+		 var sdhashSeqPRE="1";
+		 var sdhashRanPRE="1";
+	
+		 var ssdeepSeqPREDocx="0.92";
+		 var ssdeepRanPREDocx="0.86";
+		 var sdhashSeqPREDocx="0.33";
+		 var sdhashRanPREDocx="0.38";
+		 
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['Precision (TEXT) \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 Precision (DOCX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['Sequential', Number(ssdeepSeqPRE), Number(sdhashSeqPRE), 0],
+          ['Random', Number(ssdeepRanPRE), Number(sdhashRanPRE), 0],
+		  ['  ', 0, 0, 0],
+		  ['Sequential', Number(ssdeepSeqPREDocx), Number(sdhashSeqPREDocx), 0],
+          ['Random', Number(ssdeepRanPREDocx), Number(sdhashRanPREDocx), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('precision'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+	
+	
+<script type="text/javascript">
+		
+		 
+		 var ssdeepSeqRECALL="0.51";
+		 var ssdeepRanRECALL="0.51";
+		 var sdhashSeqRECALL="0.78";
+		 var sdhashRanRECALL="0.78";
+		
+		 var ssdeepSeqRECALLDocx="0.29";
+		 var ssdeepRanRECALLDocx="0.26";
+		 var sdhashSeqRECALLDocx="0.56";
+		 var sdhashRanRECALLDocx="0.55";
+		 
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        
+		  
+		  var data = google.visualization.arrayToDataTable([
+          ['Recall (TEXT) \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 Recall (DOCX)', 'ssdeep', 'sdhash', 'mrsh'],
+          ['Sequential', Number(ssdeepSeqRECALL), Number(sdhashSeqRECALL), 0],
+          ['Random', Number(ssdeepRanRECALL), Number(sdhashRanRECALL), 0],
+		  ['  ', 0, 0, 0],
+		  ['Sequential', Number(ssdeepSeqRECALLDocx), Number(sdhashSeqRECALLDocx), 0],
+          ['Random', Number(ssdeepRanRECALLDocx), Number(sdhashRanRECALLDocx), 0]
+        ]);
+		  
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: ' ',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('recall'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+	
+	
+    
+    
+    
+    
+    
+    <!--//////////////////////////////////////////////////////////////-->
+	
+    
+	
+	
+	
+</head>
+
+
+<body id="menu1"> 
+	<div id="mainWrapper">
+		<div id="topBannerContainer">
+			<div id="logoContainer">
+		<!--	<a class="logo" title="National Institute of Standards and Technology" href="http://www.nist.gov/index.html">National Institute of Standards and Technology</a>
+			<a class="sub-logo" title="Health Information Technology" href="http://www.nist.gov/healthcare/">Health Information Technology</a>-->
+				<img src="../images/banner.png" alt="CFTT Federated Testing - NIST">            
+			</div>
+            <!-- Menu Starts-->
+			<div id="menuContainer">
+				
+			  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Show hide popover
+        $(".dropdown").click(function(){
+            $(this).find(".dropdown-menu").slideToggle("fast");
+        });
+    });
+    $(document).on("click", function(event){
+        var $trigger = $(".dropdown");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+            $(".dropdown-menu").slideUp("fast");
+        }            
+    });
+</script>
+
+<ul id="menu"> <li><a id="menu1nav" href="Home.php">Home</a></li> <li><a id="menu3nav" href="about.php">About</a></li> <li><a id="menu4nav" href="contacts.php">Contacts</a></li></ul>			</div>
+            <!-- Menu Ends-->
+		</div>
+		<!-- TopBanner Ends-->
+		<!-- Main Content Starts-->	
+		<div id="subContentContainer">
+		  <div id="leftContent">
+		    <div id="leftLinks">
+			  <div>
+				  
+			        	    </div>
+		    </div>
+		  </div>  
+          	
+    	  <div id="">
+    	    <div id="breadcrumb">Fragment Identification ➤ <a href="evaluateFragment.php">Test Cases</a> ➤ <a href="result_report_text.php?threshold=22">Comparative Assessment</a></div> 
+			  <form id="frm" method="get" action="javascript:redirect();">
+				 
+                 <table  style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'">
+                 
+                                  
+					 <tr><td colspan="3" style="background-color: #0e375d;color:white; font-size: 18px; height: 30px;text-align:left; vertical-align: middle;padding-top: 10px;padding-left: 10px;">Fragment Correlation Test </td></tr>
+					 <tr class="" ><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.</td>
+                 <td style="align-content: space-around;text-align: justify; vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;" colspan="2">This report presents the results of the "Fragment Detection Test". This test identifies the ability of existing schemes to identify the fragment of a file.
+                 </td></tr>
+				
+				 <tr class="push"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.</td>
+                 <td style="align-content: space-around;text-align: justify;vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px; colspan="2">
+                 The Test is performed on the data-set of <br>
+					 (i)&nbsp;&nbsp;960 fragment files (480 sequential fragment and 480 randomly generated fragment), generated by 20  Text files. Each text file generates 24 sequencial fragment file and 24 random fragment files of following sizes: 95%, 95%, 85%, 80%, 75%, 70%, 65%, 60%, 55%, 50%, 45%, 40%, 35%, 30%, 25%, 20%, 15%, 10%, 5%, 4%, 3%, 2%, 1%, <1%.
+                 	<br>
+					 (ii) 960 fragment files (480 sequential fragment and 480 randomly generated fragment), generated by 20 Docx files. Each docx file generates 24 sequencial fragment file and 24 random fragment files of following sizes: 95%, 90%, 85%, 80%, 75%, 70%, 65%, 60%, 55%, 50%, 45%, 40%, 35%, 30%, 25%, 20%, 15%, 10%, 5%, 4%, 3%, 2%, 1%, <1%.
+                 
+                 </td></tr>	 
+					                  <tr><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;</td><td style="align-content: space-around;text-align: justify;vertical-align: text-top;vertical-align: top;padding: 10px 10px 10px 10px;" colspan="2">(i)&nbsp;&nbsp;Total number of comparision performed by each scheme for text files: 19200.<br>(ii) Total number of comparision performed by each scheme for docx files: 19200.</td></tr> 
+					 
+                <!--<tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="align-content: space-around;text-align: justify;" colspan="2"> Shown in figure below.</td></tr>
+                 <tr><td colspan="3"><div id="FNR_chart_TextDocx" style="width: 700px; height: 400px;margin-left:86px;margin-right: -50px;"></div></td></tr>-->
+				 
+					 
+				<!--<tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="align-content: space-around;text-align: justify;" colspan="2"> Shown in figure below.</td></tr>
+                 <tr><td colspan="2"><div id="FNR_chart" style="width: 400px; height: 400px;margin-left:86px;margin-right: -50px;"></div></td><td style="border-left: none;"><div id="FNR_chart_Docx" style="width: 400px; height: 400px;margin-left:-50px;"></div></td></tr>	--> 
+				
+					 
+				 <tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;</td><td style="align-content: space-around;text-align: justify;"> Bar chart shown belows represents the <strong>False Negative Rate</strong> of ssdeep and sdsash for text and docx files resepectively. The results obtained from ssdeep has more False Netaive than sdhash in case of both textand docx files.	</td></tr>
+                 <tr><td colspan="2"><div id="FNR_chart" style="width: 700px; height: 400px;margin-left:86px;"></div></td></tr>	 
+					 
+					 
+				<tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.&nbsp;</td><td style="align-content: space-around;text-align: justify;"> Bar graph shown belows represents the <strong>False Positive Rate</strong> of ssdeep and sdsash for text and docx files resepectively. Both ssdeep and sdhash no False Positive for text data-set however in case of docx files sdhash has more False Negative than ssdeep.</td></tr>
+                 <tr><td colspan="2"><div id="FPR_chart" style="width: 700px; height: 400px;margin-left:86px;"></div></td></tr>	 
+					 
+					 
+                 
+                                 
+				<tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.&nbsp;</td><td style="align-content: space-around;text-align: justify;">Results obtained by ssdeep and sdhash both have same prcision in case of text data-set.</td></tr> 
+				<tr align="center" style="text-align:center;"><td colspan="2" align="center" style="text-align:center"><div id="precision" style="width: 700px; height: 400px;text-align:center;margin-left:86px;" align="center" ></div></td></tr>	 
+                
+                
+                
+               <!-- <tr align="center" style="text-align:center;"><td colspan="2" align="center" style="text-align:center"><div id="precision_Docx" style="width: 500px; height: 400px;text-align:center;margin-left:86px;" align="center" ></div></td></tr>	 -->
+                 
+                 
+                 
+                 
+				                      <tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.&nbsp;</td><td style="align-content: space-around;text-align: justify;">Obtained results show that sdhash has better recall rates than ssdeep on an avg.</td></tr>
+				<tr align="center" style="text-align:center;"><td colspan="2" align="center" style="text-align:center"><div id="recall" style="width: 700px; height: 400px;text-align:center;margin-left:86px;" align="center" ></div></td></tr>
+                
+                
+                <!--<tr align="center" style="text-align:center;"><td colspan="2" align="center" style="text-align:center"><div id="recall_Docx" style="width: 500px; height: 400px;text-align:center;margin-left:86px;" align="center" ></div></td></tr>-->	 	 
+					 
+					 
+                 
+                                   <!--<tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;</td>
+                  <td style="align-content: space-around;text-align: justify;"><br />
+<b>Notice</b>:  Undefined variable: avgACC in <b>C:\phpdesktop\www\src\result_report_fragment_identification_graph.php</b> on line <b>540</b><br />
+ Shown below in fig below.</td></tr>
+                 <tr align="center" style="text-align:center;"><td colspan="2" align="center" style="text-align:center"><div id="ACC_chart" style="width: 600px; height: 300px;text-align:center;margin-left:86px;" align="center" ></div></td></tr>-->
+					 
+				<!--<tr><td colspan="2"><div id="ACC_chart_pptx" style="width: 600px; height: 300px;margin-left:86px;"></div></td></tr>-->	 
+                 
+				<!--<tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="align-content: space-around;text-align: justify;"> Shown in figure below--------------------------------------------------.</td></tr>
+                 <tr><td colspan="2"><div id="FPR_chart" style="width: 500px; height: 400px;margin-left:86px;"></div></td></tr>
+					 
+				<tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="align-content: space-around;text-align: justify;"> Shown in figure below.</td></tr>
+                 <tr><td colspan="2"><div id="FPR_chart_Docx" style="width: 500px; height: 400px;margin-left:86px;"></div></td></tr>
+					--> 
+					 
+				
+				
+             
+                 
+                 
+                 
+                  <tr style="text-align:justify;"><td style="width: 9%; text-align: justify;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.&nbsp;</td><td style="align-content: space-around;text-align: justify;"><strong>F-score</strong> represents test's accuracy, from the results we can conclude that  sdhash provides more accurate results than ssdeep. </td></tr>
+                 <tr><td colspan="2"><div id="Fscore" style="width: 700px; height: 400px;margin-left:86px;"></div></td></tr>
+                 
+                 
+                 
+				
+                 
+                 
+                 <tr style="text-align:justify;"><td>9.&nbsp;</td><td>Figure below shows the <strong>Matthews correlation coefficient (MCC)</strong> comparision of both ssdeep and sdhash.</td></tr>
+                 <tr><td colspan="2"><div id="MCC_chart" style="width: 700px; height: 400px;margin-left:86px;"></div></div></td></tr>
+                 
+                 
+                 
+			     
+                 
+                 
+                 
+                 
+                 </table>
+                 
+                 
+				  
+			   
+               
+               
+               
+               
+               
+               
+			  
+			  </form>
+			  
+			  
+			  <!--<div id="boxContainer" style="font-size: 2em"><a href="">DOCX</a></div>
+			  
+			  <div id="boxContainer" style="font-size: 2em"><a href="run.php">PPTX</a></div>
+			  
+			  <div id="boxContainer" style="font-size: 2em"><a href="">PPT</a></div>-->
+			  
+			 
+<!--		      <h1>Welcome to the CFTT Federated Testing CD</h1>-->
+			  
+			  
+			 
+			  
+                  
+		  </div>
+		<!-- Main Content Ends-->
+		</div>
+		<div class="push"></div>
+	</div>
+	
+	
+	<div style="color: brown;">
+		 
+	</div>
+    <!-- Footer Starts-->
+	    <!-- Footer Ends-->
+</body>
+</html>

@@ -1,0 +1,1266 @@
+- 06:07:24.125 INFO: --------------------------------------------------------
+- 06:07:24.125 INFO: Started application
+- 06:07:24.125 INFO: Logging to: C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 06:07:24.125 INFO: Log level = DEBUG4
+- 06:07:24.125 INFO: Starting Mongoose 3.9c web server
+- 06:07:24.125 INFO: WWW directory: C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 06:07:24.125 INFO: Index files: index.html,index.php
+- 06:07:24.125 INFO: CGI interpreter: C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 06:07:24.125 INFO: CGI pattern: **.php$
+- 06:07:24.125 INFO: Hide files patterns: 
+- 06:07:24.125 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 06:07:24.141 INFO: Web server url: http://127.0.0.1:65443/
+- 06:07:24.188 INFO: remote_debugging_port = 59053
+- 06:07:24.188 DEBUG: Command line string for the browser process: "C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=59053
+- 06:07:24.360 DEBUG: App::OnContextInitialized()
+- 06:07:24.360 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 06:07:24.360 DEBUG: Window max width/height = 3780/2042
+- 06:07:24.360 DEBUG: GetBrowserWindow(): not found, hwnd = 530396
+- 06:07:24.360 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 06:07:24.360 DEBUG: BrowserWindow::CreateBrowserControl()
+- 06:07:24.360 DEBUG: StoreBrowserWindow(): hwnd = 530396
+- 06:07:24.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=45BAE1E6958272F4B6F1A2CA3AF06F7C --mojo-platform-channel-handle=1792 /prefetch:2
+- 06:07:24.453 DEBUG: ClientHandler::OnAfterCreated()
+- 06:07:24.453 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 06:07:24.485 DEBUG: OnLoadingStateChange: loading=1, url=
+[0401/060725.046:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 06:07:25.016 DEBUG: Command line string for the renderer process: "C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4E19AE1C8EEB445B98704249EEB58BDA --lang=en-US --lang=en-US --log-file="C:\Users\Monika\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4E19AE1C8EEB445B98704249EEB58BDA --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 06:07:25.063 DEBUG: OnBrowserCreated()
+- 06:07:26.188 INFO: GET 200 /style.css
+- 06:07:26.188 INFO: GET 200 /
+- 06:07:26.594 DEBUG: OnContextCreated()
+- 06:07:26.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65443/
+- 06:07:45.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65443/
+- 06:07:45.453 DEBUG: OnContextCreated()
+- 06:07:45.047 INFO: GET 304 /style.css
+- 06:07:45.047 INFO: GET 200 /index.php
+- 06:07:45.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65443/index.php
+- 06:08:14.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65443/index.php
+- 06:08:14.281 DEBUG: OnContextCreated()
+- 06:08:14.875 INFO: GET 304 /style.css
+- 06:08:14.875 INFO: GET 200 /blenc_encode.php
+- 06:08:14.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65443/blenc_encode.php
+- 06:08:16.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65443/blenc_encode.php
+- 06:08:17.063 DEBUG: OnContextCreated()
+[0401/060817.122:INFO:CONSOLE(0)] "The Content-Security-Policy directive 'worker-src' is implemented behind a flag which is currently disabled.
+", source: https://github.com/cztomczak/phpdesktop/wiki/Source-code-protection#blenc-encoder (0)
+- 06:08:17.157 DEBUG: OnLoadingStateChange: loading=0, url=https://github.com/cztomczak/phpdesktop/wiki/Source-code-protection#blenc-encoder
+[0401/060817.626:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: AbortController is not defined", source: https://github.githubassets.com/assets/behaviors-5f8db454.js (1)
+- 06:08:28.922 DEBUG: OnLoadingStateChange: loading=1, url=https://github.com/cztomczak/phpdesktop/wiki/Source-code-protection#blenc-encoder
+- 06:08:31.750 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://pecl.php.net/package/bcompiler
+- 06:08:31.750 DEBUG: OnLoadingStateChange: loading=0, url=https://github.com/cztomczak/phpdesktop/wiki/Source-code-protection#blenc-encoder
+- 06:08:31.766 DEBUG: OnLoadingStateChange: loading=1, url=https://github.com/cztomczak/phpdesktop/wiki/Source-code-protection#blenc-encoder
+- 06:08:34.734 DEBUG: OnContextCreated()
+- 06:08:34.438 DEBUG: OnLoadingStateChange: loading=0, url=http://pecl.php.net/package/bcompiler
+- 06:08:38.750 DEBUG: WM_DESTROY
+- 06:08:38.766 DEBUG: RemoveBrowserWindow(): hwnd = 530396
+- 06:08:38.782 INFO: Stopping Mongoose web server
+- 06:08:38.782 DEBUG: Mongoose webserver stopped immediately
+- 06:08:38.782 DEBUG: OnBeforeClose() hwnd=19007972
+- 06:08:38.813 DEBUG: RemoveBrowserWindow(): hwnd = 19007972
+- 06:08:38.813 DEBUG: GetBrowserWindow(): not found, hwnd = 19007972
+- 06:08:38.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 06:08:38.860 DEBUG: Calling CefQuitMessageLoop()
+- 06:08:38.344 DEBUG: OnBrowserDestroyed()
+- 06:08:38.969 INFO: Ended application
+- 06:08:38.969 INFO: --------------------------------------------------------
+- 19:49:40.157 INFO: --------------------------------------------------------
+- 19:49:40.157 INFO: Started application
+- 19:49:40.157 INFO: Logging to: C:\phpdesktop\debug.log
+- 19:49:40.157 INFO: Log level = DEBUG4
+- 19:49:40.157 INFO: Starting Mongoose 3.9c web server
+- 19:49:40.157 INFO: WWW directory: C:\phpdesktop\www
+- 19:49:40.157 INFO: Index files: index.html,index.php
+- 19:49:40.157 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 19:49:40.157 INFO: CGI pattern: **.php$
+- 19:49:40.157 INFO: Hide files patterns: 
+- 19:49:40.157 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:49:40.172 INFO: Web server url: http://127.0.0.1:51333/
+- 19:49:40.203 INFO: remote_debugging_port = 58854
+- 19:49:40.203 DEBUG: Command line string for the browser process: "C:\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=58854
+- 19:49:41.688 DEBUG: App::OnContextInitialized()
+- 19:49:41.688 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 19:49:41.688 DEBUG: Window max width/height = 3780/2042
+- 19:49:41.688 DEBUG: GetBrowserWindow(): not found, hwnd = 139584
+- 19:49:41.688 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:49:41.688 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:49:41.688 DEBUG: StoreBrowserWindow(): hwnd = 139584
+- 19:49:41.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=9421C6AED4A915AA124EC6EF306DBE62 --mojo-platform-channel-handle=1804 /prefetch:2
+- 19:49:41.813 DEBUG: ClientHandler::OnAfterCreated()
+- 19:49:41.813 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:49:41.875 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:49:41.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=8CBA426FA849437CCE4D1037E4CA3AB4 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8CBA426FA849437CCE4D1037E4CA3AB4 --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+- 19:49:42.078 DEBUG: OnBrowserCreated()
+[0403/194943.429:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:49:49.610 INFO: GET 200 /
+- 19:49:49.610 INFO: GET 200 /style.css
+- 19:49:49.610 DEBUG: OnContextCreated()
+- 19:49:49.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51333/
+- 19:50:12.407 DEBUG: WM_DESTROY
+- 19:50:12.407 DEBUG: RemoveBrowserWindow(): hwnd = 139584
+- 19:50:12.422 INFO: Stopping Mongoose web server
+- 19:50:12.469 DEBUG: Mongoose webserver stopped immediately
+- 19:50:12.500 DEBUG: OnBeforeClose() hwnd=270524
+- 19:50:12.532 DEBUG: RemoveBrowserWindow(): hwnd = 270524
+- 19:50:12.547 DEBUG: GetBrowserWindow(): not found, hwnd = 270524
+- 19:50:12.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:50:12.657 DEBUG: Calling CefQuitMessageLoop()
+- 19:50:12.672 DEBUG: OnBrowserDestroyed()
+- 19:50:12.703 INFO: Ended application
+- 19:50:12.703 INFO: --------------------------------------------------------
+- 19:50:49.125 INFO: --------------------------------------------------------
+- 19:50:49.125 INFO: Started application
+- 19:50:49.125 INFO: Logging to: C:\phpdesktop\debug.log
+- 19:50:49.141 INFO: Log level = DEBUG4
+- 19:50:49.141 INFO: Starting Mongoose 3.9c web server
+- 19:50:49.141 INFO: WWW directory: C:\phpdesktop\www
+- 19:50:49.141 INFO: Index files: index.html,index.php
+- 19:50:49.141 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 19:50:49.141 INFO: CGI pattern: **.php$
+- 19:50:49.141 INFO: Hide files patterns: 
+- 19:50:49.141 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:50:49.141 INFO: Web server url: http://127.0.0.1:51345/
+- 19:50:49.141 INFO: remote_debugging_port = 62388
+- 19:50:49.141 DEBUG: Command line string for the browser process: "C:\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=62388
+- 19:50:49.281 DEBUG: App::OnContextInitialized()
+- 19:50:49.281 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 19:50:49.281 DEBUG: Window max width/height = 3780/2042
+- 19:50:49.297 DEBUG: GetBrowserWindow(): not found, hwnd = 205120
+- 19:50:49.297 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:50:49.297 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:50:49.297 DEBUG: StoreBrowserWindow(): hwnd = 205120
+- 19:50:49.016 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=65C0B0A8D24317B409B92A8FA1AFDDAB --mojo-platform-channel-handle=1776 /prefetch:2
+[0403/195049.854:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:50:49.485 DEBUG: ClientHandler::OnAfterCreated()
+- 19:50:49.485 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:50:49.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:50:50.015 DEBUG: Command line string for the renderer process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0B136331FE0AB4D8158274379B2447E3 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0B136331FE0AB4D8158274379B2447E3 --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 19:50:50.062 DEBUG: OnBrowserCreated()
+- 19:50:51.750 INFO: GET 200 /
+- 19:50:51.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51345/
+- 19:50:53.110 DEBUG: WM_DESTROY
+- 19:50:53.110 DEBUG: RemoveBrowserWindow(): hwnd = 205120
+- 19:50:53.125 INFO: Stopping Mongoose web server
+- 19:50:53.125 DEBUG: Mongoose webserver stopped immediately
+- 19:50:53.141 DEBUG: OnBeforeClose() hwnd=1581196
+- 19:50:53.156 DEBUG: RemoveBrowserWindow(): hwnd = 1581196
+- 19:50:53.172 DEBUG: GetBrowserWindow(): not found, hwnd = 1581196
+- 19:50:53.172 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:50:53.188 DEBUG: Calling CefQuitMessageLoop()
+- 19:50:53.656 DEBUG: OnBrowserDestroyed()
+- 19:50:53.328 INFO: Ended application
+- 19:50:53.328 INFO: --------------------------------------------------------
+- 21:06:01.125 INFO: --------------------------------------------------------
+- 21:06:01.125 INFO: Started application
+- 21:06:01.125 INFO: Logging to: C:\phpdesktop\debug.log
+- 21:06:01.125 INFO: Log level = DEBUG4
+- 21:06:01.125 INFO: Starting Mongoose 3.9c web server
+- 21:06:01.125 INFO: WWW directory: C:\phpdesktop\www
+- 21:06:01.125 INFO: Index files: index.html,index.php
+- 21:06:01.125 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 21:06:01.125 INFO: CGI pattern: **.php$
+- 21:06:01.125 INFO: Hide files patterns: 
+- 21:06:01.125 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:06:01.141 INFO: Web server url: http://127.0.0.1:51862/
+- 21:06:01.141 INFO: remote_debugging_port = 55635
+- 21:06:01.141 DEBUG: Command line string for the browser process: "C:\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=55635
+- 21:06:01.266 DEBUG: App::OnContextInitialized()
+- 21:06:01.266 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 21:06:01.266 DEBUG: Window max width/height = 3780/2042
+- 21:06:01.281 DEBUG: GetBrowserWindow(): not found, hwnd = 5968554
+- 21:06:01.281 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:06:01.281 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:06:01.297 DEBUG: StoreBrowserWindow(): hwnd = 5968554
+- 21:06:01.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=FDB3394133E777B6362E8B1E866109B5 --mojo-platform-channel-handle=1776 /prefetch:2
+[0403/210601.770:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:06:01.547 DEBUG: ClientHandler::OnAfterCreated()
+- 21:06:01.547 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:06:01.609 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:06:01.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=88A870EB1630FC5FF8A055B9410DFEAB --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=88A870EB1630FC5FF8A055B9410DFEAB --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+- 21:06:01.063 DEBUG: OnBrowserCreated()
+- 21:06:03.891 INFO: GET 200 /
+- 21:06:03.235 DEBUG: OnContextCreated()
+- 21:06:03.906 INFO: GET 200 /css/reset.css
+- 21:06:03.906 INFO: GET 200 /css/layout.css
+- 21:06:03.906 INFO: GET 200 /css/main_style.css
+- 21:06:03.906 INFO: GET 200 /images/banner.png
+- 21:06:03.922 INFO: GET 200 /images/info_black-128x128.png
+- 21:06:03.266 INFO: GET 404 /images/bg_header.jpg
+- 21:06:03.281 INFO: GET 404 /images/splash_bg.jpg
+- 21:06:03.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/
+- 21:06:08.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/
+- 21:06:08.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/#
+- 21:06:09.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/#
+- 21:06:09.610 DEBUG: OnContextCreated()
+- 21:06:09.266 INFO: GET 200 /src/evaluateFragment.php
+- 21:06:09.281 INFO: GET 404 /images/bg_header.jpg
+- 21:06:09.328 INFO: GET 404 /images/splash_bg.jpg
+- 21:06:09.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:06:11.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:06:11.625 DEBUG: OnContextCreated()
+- 21:06:11.281 INFO: GET 404 /images/bg_header.jpg
+- 21:06:11.297 INFO: GET 200 /src/evaluate_fragment_search.php
+- 21:06:11.312 INFO: GET 404 /images/splash_bg.jpg
+- 21:06:11.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluate_fragment_search.php
+- 21:06:45.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluate_fragment_search.php
+- 21:06:45.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluate_fragment_search.php#
+- 21:06:46.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluate_fragment_search.php#
+- 21:06:46.187 INFO: GET 200 /src/evaluateFragment.php
+- 21:06:46.563 DEBUG: OnContextCreated()
+- 21:06:46.266 INFO: GET 404 /images/bg_header.jpg
+- 21:06:46.266 INFO: GET 404 /images/splash_bg.jpg
+- 21:06:46.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:06:48.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:06:49.266 DEBUG: OnContextCreated()
+- 21:06:49.969 INFO: GET 200 /includes/loader.js
+- 21:06:55.672 INFO: GET 200 /src/result_report_text.php?threshold=22
+- 21:06:55.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/result_report_text.php?threshold=22
+[0403/210658.516:INFO:CONSOLE(22)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:51862/src/result_report_text.php?threshold=22 (22)
+- 21:06:58.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/result_report_text.php?threshold=22
+- 21:06:58.813 DEBUG: OnContextCreated()
+- 21:06:58.484 INFO: GET 200 /src/result_report_fragment_identification_graph.php?ssdeepSeqFSCORE=0.67403314917127&ssdeepRanFSCORE=0.67768595041322&ssdeepSeqMCC=0.70392535264395&ssdeepRanMCC=0.70687996264625&sdhashSeqFSCORE=0.87456037514654&sdhashRanFSCORE=0.87456037514654&sdhashSeqMCC=0.87639714896736&sdhashRanMCC=0.87639714896736&numOfText1=20&numOfText2=20&numOfSeqText=480&numOfRanText=480&ssdeepSeqPRE=1&ssdeepRanPRE=1&sdhashSeqPRE=1&sdhashRanPRE=1&ssdeepSeqRECALL=0.50833333333333&ssdeepRanRECALL=0.5125&sdhashSeqRECALL=0.77708333333333&sdhashRanRECALL=0.77708333333333&ssdeepSeqFSCOREDocx=0.44549763033175&ssdeepRanFSCOREDocx=0.39486356340289&ssdeepSeqMCCDocx=0.50892471502602&ssdeepRanMCCDocx=0.45709294693554&sdhashSeqFSCOREDocx=0.41621200311769&sdhashRanFSCOREDocx=0.44743481917578&sdhashSeqMCCDocx=0.39162184593968&sdhashRanMCCDocx=0.42132758985773&numOfDocx1=20&numOfDocx2=20&numOfSeqDocx=480&numOfRanDocx=480&ssdeepSeqPREDocx=0.92156862745098&ssdeepRanPREDocx=0.86013986013986&sdhashSeqPREDocx=0.33250311332503&sdhashRanPREDocx=0.37517630465444&ssdeepSeqRECALLDocx=0.29375&ssdeepRanRECALLDocx=0.25625&sdhashSeqRECALLDocx=0.55625&sdhashRanRECALLDocx=0.55416666666667&ssdeepSeqFPR=0&ssdeepRanFPR=0&sdhashSeqFPR=0&sdhashRanFPR=0&ssdeepSeqFPRDocx=0.00125&ssdeepRanFPRDocx=0.0020833333333333&sdhashSeqFPRDocx=0.055833333333333&sdhashRanFPRDocx=0.046145833333333&ssdeepSeqFNR=0.024583333333333&ssdeepRanFNR=0.024375&sdhashSeqFNR=0.011145833333333&sdhashRanFNR=0.011145833333333&ssdeepSeqFNRDocx=0.0353125&ssdeepRanFNRDocx=0.0371875&sdhashSeqFNRDocx=0.0221875&sdhashRanFNRDocx=0.022291666666667
+- 21:06:59.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/result_report_fragment_identification_graph.php?ssdeepSeqFSCORE=0.67403314917127&ssdeepRanFSCORE=0.67768595041322&ssdeepSeqMCC=0.70392535264395&ssdeepRanMCC=0.70687996264625&sdhashSeqFSCORE=0.87456037514654&sdhashRanFSCORE=0.87456037514654&sdhashSeqMCC=0.87639714896736&sdhashRanMCC=0.87639714896736&numOfText1=20&numOfText2=20&numOfSeqText=480&numOfRanText=480&ssdeepSeqPRE=1&ssdeepRanPRE=1&sdhashSeqPRE=1&sdhashRanPRE=1&ssdeepSeqRECALL=0.50833333333333&ssdeepRanRECALL=0.5125&sdhashSeqRECALL=0.77708333333333&sdhashRanRECALL=0.77708333333333&ssdeepSeqFSCOREDocx=0.44549763033175&ssdeepRanFSCOREDocx=0.39486356340289&ssdeepSeqMCCDocx=0.50892471502602&ssdeepRanMCCDocx=0.45709294693554&sdhashSeqFSCOREDocx=0.41621200311769&sdhashRanFSCOREDocx=0.44743481917578&sdhashSeqMCCDocx=0.39162184593968&sdhashRanMCCDocx=0.42132758985773&numOfDocx1=20&numOfDocx2=20&numOfSeqDocx=480&numOfRanDocx=480&ssdeepSeqPREDocx=0.92156862745098&ssdeepRanPREDocx=0.86013986013986&sdhashSeqPREDocx=0.33250311332503&sdhashRanPREDocx=0.37517630465444&ssdeepSeqRECALLDocx=0.29375&ssdeepRanRECALLDocx=0.25625&sdhashSeqRECALLDocx=0.55625&sdhashRanRECALLDocx=0.55416666666667&ssdeepSeqFPR=0&ssdeepRanFPR=0&sdhashSeqFPR=0&sdhashRanFPR=0&ssdeepSeqFPRDocx=0.00125&ssdeepRanFPRDocx=0.0020833333333333&sdhashSeqFPRDocx=0.055833333333333&sdhashRanFPRDocx=0.046145833333333&ssdeepSeqFNR=0.024583333333333&ssdeepRanFNR=0.024375&sdhashSeqFNR=0.011145833333333&sdhashRanFNR=0.011145833333333&ssdeepSeqFNRDocx=0.0353125&ssdeepRanFNRDocx=0.0371875&sdhashSeqFNRDocx=0.0221875&sdhashRanFNRDocx=0.022291666666667
+[0403/210659.277:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+- 21:07:06.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/result_report_fragment_identification_graph.php?ssdeepSeqFSCORE=0.67403314917127&ssdeepRanFSCORE=0.67768595041322&ssdeepSeqMCC=0.70392535264395&ssdeepRanMCC=0.70687996264625&sdhashSeqFSCORE=0.87456037514654&sdhashRanFSCORE=0.87456037514654&sdhashSeqMCC=0.87639714896736&sdhashRanMCC=0.87639714896736&numOfText1=20&numOfText2=20&numOfSeqText=480&numOfRanText=480&ssdeepSeqPRE=1&ssdeepRanPRE=1&sdhashSeqPRE=1&sdhashRanPRE=1&ssdeepSeqRECALL=0.50833333333333&ssdeepRanRECALL=0.5125&sdhashSeqRECALL=0.77708333333333&sdhashRanRECALL=0.77708333333333&ssdeepSeqFSCOREDocx=0.44549763033175&ssdeepRanFSCOREDocx=0.39486356340289&ssdeepSeqMCCDocx=0.50892471502602&ssdeepRanMCCDocx=0.45709294693554&sdhashSeqFSCOREDocx=0.41621200311769&sdhashRanFSCOREDocx=0.44743481917578&sdhashSeqMCCDocx=0.39162184593968&sdhashRanMCCDocx=0.42132758985773&numOfDocx1=20&numOfDocx2=20&numOfSeqDocx=480&numOfRanDocx=480&ssdeepSeqPREDocx=0.92156862745098&ssdeepRanPREDocx=0.86013986013986&sdhashSeqPREDocx=0.33250311332503&sdhashRanPREDocx=0.37517630465444&ssdeepSeqRECALLDocx=0.29375&ssdeepRanRECALLDocx=0.25625&sdhashSeqRECALLDocx=0.55625&sdhashRanRECALLDocx=0.55416666666667&ssdeepSeqFPR=0&ssdeepRanFPR=0&sdhashSeqFPR=0&sdhashRanFPR=0&ssdeepSeqFPRDocx=0.00125&ssdeepRanFPRDocx=0.0020833333333333&sdhashSeqFPRDocx=0.055833333333333&sdhashRanFPRDocx=0.046145833333333&ssdeepSeqFNR=0.024583333333333&ssdeepRanFNR=0.024375&sdhashSeqFNR=0.011145833333333&sdhashRanFNR=0.011145833333333&ssdeepSeqFNRDocx=0.0353125&ssdeepRanFNRDocx=0.0371875&sdhashSeqFNRDocx=0.0221875&sdhashRanFNRDocx=0.022291666666667
+- 21:07:06.438 DEBUG: OnContextCreated()
+- 21:07:06.109 INFO: GET 200 /src/evaluateFragment.php
+- 21:07:06.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:07:13.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:07:13.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluateFragment.php#
+- 21:07:16.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluateFragment.php#
+- 21:07:16.172 INFO: GET 200 /src/evaluate_fragment_search.php
+- 21:07:16.547 DEBUG: OnContextCreated()
+- 21:07:16.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluate_fragment_search.php
+- 21:07:25.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluate_fragment_search.php
+- 21:07:25.875 DEBUG: OnContextCreated()
+- 21:07:30.297 INFO: POST 200 /src/FragmentIdentification_ssdeep.php?case=5&threshold=22
+- 21:07:30.297 INFO: GET 200 /images/Icons/Previous1.jpg
+- 21:07:30.312 INFO: GET 200 /images/Icons/Next1.jpg
+- 21:07:30.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/FragmentIdentification_ssdeep.php?case=5&threshold=22
+- 21:12:50.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/FragmentIdentification_ssdeep.php?case=5&threshold=22
+- 21:12:50.109 INFO: GET 200 /src/evaluateFragment.php
+- 21:12:50.469 DEBUG: OnContextCreated()
+- 21:12:50.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:12:51.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:12:52.156 DEBUG: OnContextCreated()
+- 21:12:52.828 INFO: GET 200 /src/evaluate_fragment_search.php
+- 21:12:52.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluate_fragment_search.php
+- 21:13:02.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluate_fragment_search.php
+- 21:13:02.766 DEBUG: OnContextCreated()
+- 21:13:04.922 INFO: POST 200 /src/FragmentIdentification_sdhash.php?case=5&threshold=22
+- 21:13:04.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/FragmentIdentification_sdhash.php?case=5&threshold=22
+- 21:13:06.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/FragmentIdentification_sdhash.php?case=5&threshold=22
+- 21:13:06.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/FragmentIdentification_sdhash.php?case=5&threshold=22#
+- 21:13:06.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/FragmentIdentification_sdhash.php?case=5&threshold=22#
+- 21:13:06.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/FragmentIdentification_sdhash.php?case=5&threshold=22#
+- 21:13:15.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/FragmentIdentification_sdhash.php?case=5&threshold=22#
+- 21:13:15.094 DEBUG: OnContextCreated()
+- 21:13:15.750 INFO: GET 200 /src/evaluateFragment.php
+- 21:13:16.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:13:17.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluateFragment.php
+- 21:13:17.594 DEBUG: OnContextCreated()
+- 21:13:17.266 INFO: GET 200 /src/evaluate_smallest_fragment_correlation.php
+- 21:13:17.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluate_smallest_fragment_correlation.php
+- 21:13:29.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluate_smallest_fragment_correlation.php
+- 21:13:29.203 DEBUG: OnContextCreated()
+- 21:13:31.859 INFO: POST 200 /src/sdhashSFC.php?case=6&threshold=22
+- 21:13:31.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/sdhashSFC.php?case=6&threshold=22
+- 21:13:34.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/sdhashSFC.php?case=6&threshold=22
+- 21:13:34.047 DEBUG: OnContextCreated()
+- 21:13:34.719 INFO: GET 200 /src/evaluate_smallest_fragment_correlation.php
+- 21:13:34.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/evaluate_smallest_fragment_correlation.php
+- 00:14:21.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51862/src/evaluate_smallest_fragment_correlation.php
+- 00:14:21.969 DEBUG: OnContextCreated()
+- 00:15:24.172 INFO: POST 200 /src/other_toolsSFC.php?case=5&threshold=22&tool=FbHash
+- 00:15:24.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51862/src/other_toolsSFC.php?case=5&threshold=22&tool=FbHash
+- 00:19:17.828 DEBUG: WM_DESTROY
+- 00:19:17.828 DEBUG: RemoveBrowserWindow(): hwnd = 5968554
+- 00:19:17.828 INFO: Stopping Mongoose web server
+- 00:19:17.859 DEBUG: Mongoose webserver stopped immediately
+- 00:19:17.891 DEBUG: OnBeforeClose() hwnd=1123422
+- 00:19:17.891 DEBUG: RemoveBrowserWindow(): hwnd = 1123422
+- 00:19:17.953 DEBUG: GetBrowserWindow(): not found, hwnd = 1123422
+- 00:19:17.016 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:19:17.016 DEBUG: Calling CefQuitMessageLoop()
+- 00:19:17.485 DEBUG: OnBrowserDestroyed()
+- 00:19:17.187 INFO: Ended application
+- 00:19:17.187 INFO: --------------------------------------------------------
+- 00:19:32.140 INFO: --------------------------------------------------------
+- 00:19:32.140 INFO: Started application
+- 00:19:32.140 INFO: Logging to: C:\phpdesktop\debug.log
+- 00:19:32.140 INFO: Log level = DEBUG4
+- 00:19:32.140 INFO: Starting Mongoose 3.9c web server
+- 00:19:32.140 INFO: WWW directory: C:\phpdesktop\www
+- 00:19:32.140 INFO: Index files: index.html,index.php
+- 00:19:32.140 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 00:19:32.140 INFO: CGI pattern: **.php$
+- 00:19:32.140 INFO: Hide files patterns: 
+- 00:19:32.140 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:19:32.156 INFO: Web server url: http://127.0.0.1:53987/
+- 00:19:32.203 INFO: remote_debugging_port = 53404
+- 00:19:32.203 DEBUG: Command line string for the browser process: "C:\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=53404
+- 00:19:32.328 DEBUG: App::OnContextInitialized()
+- 00:19:32.328 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 00:19:32.344 DEBUG: Window max width/height = 3780/2042
+- 00:19:32.344 DEBUG: GetBrowserWindow(): not found, hwnd = 271782
+- 00:19:32.344 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:19:32.344 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:19:32.344 DEBUG: StoreBrowserWindow(): hwnd = 271782
+- 00:19:32.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=9FA510245399B8E46E30082DEB7D4EE7 --mojo-platform-channel-handle=1768 /prefetch:2
+- 00:19:32.547 DEBUG: ClientHandler::OnAfterCreated()
+- 00:19:32.547 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[0404/001933.003:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:19:33.609 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:19:33.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5D3B5D77104923D01646F3D203F5DEBD --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5D3B5D77104923D01646F3D203F5DEBD --renderer-client-id=3 --mojo-platform-channel-handle=2316 /prefetch:1
+- 00:19:33.062 DEBUG: OnBrowserCreated()
+- 00:19:34.265 DEBUG: OnContextCreated()
+- 00:19:34.937 INFO: GET 200 /
+- 00:19:34.937 INFO: GET 200 /css/layout.css
+- 00:19:34.937 INFO: GET 200 /css/reset.css
+- 00:19:34.937 INFO: GET 200 /css/main_style.css
+- 00:19:34.953 INFO: GET 200 /images/banner.png
+- 00:19:34.953 INFO: GET 200 /images/info_black-128x128.png
+- 00:19:34.984 INFO: GET 404 /images/bg_header.jpg
+- 00:19:34.984 INFO: GET 404 /images/splash_bg.jpg
+- 00:19:34.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/
+- 00:19:44.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/
+- 00:19:44.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/#
+- 00:19:45.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/#
+- 00:19:45.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/#
+- 00:19:47.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/#
+- 00:19:47.890 INFO: GET 200 /src/GenerateFragment.php
+- 00:19:47.234 DEBUG: OnContextCreated()
+- 00:19:47.922 INFO: GET 404 /images/bg_header.jpg
+- 00:19:47.922 INFO: GET 404 /images/splash_bg.jpg
+- 00:19:47.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/GenerateFragment.php
+- 00:19:50.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/src/GenerateFragment.php
+- 00:19:50.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/GenerateFragment.php#
+- 00:19:53.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/src/GenerateFragment.php#
+- 00:19:53.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/GenerateFragment.php#
+- 00:19:58.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/src/GenerateFragment.php#
+- 00:19:58.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/GenerateFragment.php#
+- 00:20:04.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/src/GenerateFragment.php#
+- 00:20:04.922 INFO: GET 200 /src/evaluateFragment.php
+- 00:20:04.281 DEBUG: OnContextCreated()
+- 00:20:04.984 INFO: GET 404 /images/bg_header.jpg
+- 00:20:04.984 INFO: GET 404 /images/splash_bg.jpg
+- 00:20:04.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/evaluateFragment.php
+- 00:20:06.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/src/evaluateFragment.php
+- 00:20:06.828 DEBUG: OnContextCreated()
+- 00:20:06.500 INFO: GET 200 /src/evaluate_fragment_search.php
+- 00:20:06.515 INFO: GET 404 /images/splash_bg.jpg
+- 00:20:06.515 INFO: GET 404 /images/bg_header.jpg
+- 00:20:06.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/evaluate_fragment_search.php
+- 00:20:34.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/src/evaluate_fragment_search.php
+- 00:20:34.047 DEBUG: OnContextCreated()
+- 00:20:34.719 INFO: GET 404 /images/bg_header.jpg
+- 00:20:34.765 INFO: GET 404 /images/splash_bg.jpg
+- 00:23:34.375 INFO: POST 200 /src/FragmentIdentification_othertool.php?case=5&threshold=22&tool=FbHash
+- 00:23:34.390 INFO: GET 200 /images/Icons/Next1.jpg
+- 00:23:34.390 INFO: GET 200 /images/Icons/Previous1.jpg
+- 00:23:34.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/FragmentIdentification_othertool.php?case=5&threshold=22&tool=FbHash
+- 01:21:46.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/src/FragmentIdentification_othertool.php?case=5&threshold=22&tool=FbHash
+- 01:21:46.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/FragmentIdentification_othertool.php?case=5&threshold=22&tool=FbHash#
+- 01:21:47.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53987/src/FragmentIdentification_othertool.php?case=5&threshold=22&tool=FbHash#
+- 01:21:47.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53987/src/FragmentIdentification_othertool.php?case=5&threshold=22&tool=FbHash#
+- 01:21:52.844 DEBUG: WM_DESTROY
+- 01:21:52.844 DEBUG: RemoveBrowserWindow(): hwnd = 271782
+- 01:21:52.844 INFO: Stopping Mongoose web server
+- 01:21:52.844 DEBUG: Mongoose webserver stopped immediately
+- 01:21:52.844 DEBUG: OnBeforeClose() hwnd=271722
+- 01:21:52.859 DEBUG: RemoveBrowserWindow(): hwnd = 271722
+- 01:21:52.906 DEBUG: GetBrowserWindow(): not found, hwnd = 271722
+- 01:21:52.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:21:52.953 DEBUG: Calling CefQuitMessageLoop()
+- 01:21:52.125 INFO: Ended application
+- 01:21:52.125 INFO: --------------------------------------------------------
+- 02:04:21.125 INFO: --------------------------------------------------------
+- 02:04:21.125 INFO: Started application
+- 02:04:21.125 INFO: Logging to: C:\phpdesktop\debug.log
+- 02:04:21.125 INFO: Log level = DEBUG4
+- 02:04:21.125 INFO: Starting Mongoose 3.9c web server
+- 02:04:21.125 INFO: WWW directory: C:\phpdesktop\www
+- 02:04:21.125 INFO: Index files: index.html,index.php
+- 02:04:21.125 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 02:04:21.125 INFO: CGI pattern: **.php$
+- 02:04:21.125 INFO: Hide files patterns: 
+- 02:04:21.125 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 02:04:21.125 INFO: Web server url: http://127.0.0.1:54583/
+- 02:04:21.141 INFO: remote_debugging_port = 64756
+- 02:04:21.141 DEBUG: Command line string for the browser process: "C:\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=64756
+- 02:04:21.282 DEBUG: App::OnContextInitialized()
+- 02:04:21.282 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 02:04:21.297 DEBUG: Window max width/height = 3780/2042
+- 02:04:21.313 DEBUG: GetBrowserWindow(): not found, hwnd = 1253510
+- 02:04:21.313 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 02:04:21.313 DEBUG: BrowserWindow::CreateBrowserControl()
+- 02:04:21.313 DEBUG: StoreBrowserWindow(): hwnd = 1253510
+- 02:04:21.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=8B601588AC229F21C068C8EC9DC9989D --mojo-platform-channel-handle=1788 /prefetch:2
+- 02:04:21.454 DEBUG: ClientHandler::OnAfterCreated()
+- 02:04:21.454 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 02:04:21.485 DEBUG: OnLoadingStateChange: loading=1, url=
+[0404/020421.547:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 02:04:21.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=22759624B5672BDDCE8601B75BFFB539 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=22759624B5672BDDCE8601B75BFFB539 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+- 02:04:21.062 DEBUG: OnBrowserCreated()
+- 02:04:22.265 DEBUG: OnContextCreated()
+- 02:04:22.844 INFO: GET 200 /
+- 02:04:22.844 INFO: GET 200 /css/reset.css
+- 02:04:22.844 INFO: GET 200 /css/layout.css
+- 02:04:22.844 INFO: GET 200 /css/main_style.css
+- 02:04:22.860 INFO: GET 200 /images/banner.png
+- 02:04:22.860 INFO: GET 200 /images/info_black-128x128.png
+- 02:04:22.891 INFO: GET 404 /images/bg_header.jpg
+- 02:04:22.891 INFO: GET 404 /images/splash_bg.jpg
+- 02:04:22.954 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/
+- 02:04:28.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/
+- 02:04:28.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/#
+- 02:04:29.204 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/#
+- 02:04:29.843 DEBUG: OnContextCreated()
+- 02:04:29.438 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 02:04:29.454 INFO: GET 404 /images/splash_bg.jpg
+- 02:04:29.454 INFO: GET 404 /images/bg_header.jpg
+- 02:04:29.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateEmbeddedObject.php
+- 02:04:31.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateEmbeddedObject.php
+- 02:04:31.062 DEBUG: OnContextCreated()
+- 02:04:31.688 INFO: GET 200 /includes/loader.js
+- 02:04:31.735 INFO: GET 404 /images/bg_header.jpg
+- 02:04:31.735 INFO: GET 404 /images/splash_bg.jpg
+- 02:04:33.969 INFO: GET 200 /src/result_report_embedded_object_based_search.php?threshold=22
+- 02:04:33.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/result_report_embedded_object_based_search.php?threshold=22
+- 02:04:36.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/result_report_embedded_object_based_search.php?threshold=22
+- 02:04:36.937 DEBUG: OnContextCreated()
+- 02:04:36.516 INFO: GET 200 /src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+[0404/020436.880:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0404/020436.881:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0404/020436.881:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+- 02:04:36.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+- 02:04:53.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+- 02:04:53.875 DEBUG: OnContextCreated()
+- 02:04:53.454 INFO: GET 200 /src/Home.php
+- 02:04:53.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/Home.php
+- 02:04:56.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/Home.php
+- 02:04:56.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/Home.php#
+- 02:04:57.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/Home.php#
+- 02:04:57.187 DEBUG: OnContextCreated()
+- 02:04:57.782 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 02:04:57.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateEmbeddedObject.php
+- 02:04:59.079 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateEmbeddedObject.php
+- 02:04:59.593 DEBUG: OnContextCreated()
+- 02:04:59.172 INFO: GET 200 /src/evaluate_object_based_search_AllInOne.php
+- 02:04:59.204 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluate_object_based_search_AllInOne.php
+- 02:05:11.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluate_object_based_search_AllInOne.php
+- 02:05:11.046 DEBUG: OnContextCreated()
+- 02:05:13.704 INFO: POST 200 /src/EmbeddedObjectDetection_ssdeep.php?case=13&threshold=22
+- 02:05:13.719 INFO: GET 200 /images/Icons/Previous1.jpg
+- 02:05:13.719 INFO: GET 200 /images/Icons/Next1.jpg
+- 02:05:13.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_ssdeep.php?case=13&threshold=22
+- 02:05:18.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_ssdeep.php?case=13&threshold=22
+- 02:05:18.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_ssdeep.php?case=13&threshold=22#
+- 02:05:19.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_ssdeep.php?case=13&threshold=22#
+- 02:05:19.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_ssdeep.php?case=13&threshold=22#
+- 02:05:24.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_ssdeep.php?case=13&threshold=22#
+- 02:05:24.515 DEBUG: OnContextCreated()
+- 02:05:24.094 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 02:05:24.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateEmbeddedObject.php
+- 02:05:25.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateEmbeddedObject.php
+- 02:05:25.156 DEBUG: OnContextCreated()
+- 02:05:25.735 INFO: GET 200 /src/evaluate_object_based_search_AllInOne.php
+- 02:05:25.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluate_object_based_search_AllInOne.php
+- 02:05:41.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluate_object_based_search_AllInOne.php
+- 02:05:41.734 DEBUG: OnContextCreated()
+- 02:05:43.688 INFO: POST 200 /src/EmbeddedObjectDetection_sdhash.php?case=16&threshold=22
+- 02:05:43.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_sdhash.php?case=16&threshold=22
+- 02:07:58.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_sdhash.php?case=16&threshold=22
+- 02:07:58.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_sdhash.php?case=16&threshold=22#
+- 02:07:59.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/EmbeddedObjectDetection_sdhash.php?case=16&threshold=22#
+- 02:07:59.281 DEBUG: OnContextCreated()
+- 02:07:59.875 INFO: GET 200 /src/evaluateRelatedDocument.php
+- 02:07:59.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateRelatedDocument.php
+- 02:08:02.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateRelatedDocument.php
+- 02:08:03.484 DEBUG: OnContextCreated()
+- 02:08:04.157 INFO: GET 200 /src/all.php?threshold=22
+- 02:08:04.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/all.php?threshold=22
+[0404/020806.770:INFO:CONSOLE(16)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:54583/src/all.php?threshold=22 (16)
+- 02:08:06.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/all.php?threshold=22
+- 02:08:06.234 DEBUG: OnContextCreated()
+- 02:08:06.813 INFO: GET 200 /src/result_report_smallest_related_common_block_graph.php?scoreSdhashText_SingleCommon=41.94-31.44-24.38-15.88-7.88-4-2.94-2.38-1.44-1.19&matchSdhashText_SingleCommon=100-93.75-68.75-12.5-0-0-0-0-0-0&scoreSsdeepText_SingleCommon=48.06-39-30.19-15.13-3.56-0-0-0-0-0&matchSsdeepText_SingleCommon=87.5-81.25-75-37.5-12.5-0-0-0-0-0&scoreSdhashDocx_SingleCommon=6.13-6.63-8.13-9.19-9.31-7.75-7.56-9.19-9.5-8.63&matchSdhashDocx_SingleCommon=12.5-12.5-18.75-18.75-18.75-18.75-18.75-18.75-18.75-18.75&scoreSsdeepDocx_SingleCommon=3.38-3.56-6.31-7-10.19-6.69-6.81-8.38-4.69-4.25&matchSsdeepDocx_SingleCommon=6.25-6.25-12.5-12.5-18.75-12.5-12.5-12.5-6.25-6.25
+- 02:08:06.891 INFO: GET 200 /includes/Chart.min.js
+- 02:08:07.515 DEBUG: OnContextCreated()
+- 02:08:07.531 DEBUG: OnContextCreated()
+- 02:08:07.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/result_report_smallest_related_common_block_graph.php?scoreSdhashText_SingleCommon=41.94-31.44-24.38-15.88-7.88-4-2.94-2.38-1.44-1.19&matchSdhashText_SingleCommon=100-93.75-68.75-12.5-0-0-0-0-0-0&scoreSsdeepText_SingleCommon=48.06-39-30.19-15.13-3.56-0-0-0-0-0&matchSsdeepText_SingleCommon=87.5-81.25-75-37.5-12.5-0-0-0-0-0&scoreSdhashDocx_SingleCommon=6.13-6.63-8.13-9.19-9.31-7.75-7.56-9.19-9.5-8.63&matchSdhashDocx_SingleCommon=12.5-12.5-18.75-18.75-18.75-18.75-18.75-18.75-18.75-18.75&scoreSsdeepDocx_SingleCommon=3.38-3.56-6.31-7-10.19-6.69-6.81-8.38-4.69-4.25&matchSsdeepDocx_SingleCommon=6.25-6.25-12.5-12.5-18.75-12.5-12.5-12.5-6.25-6.25
+- 02:08:18.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/result_report_smallest_related_common_block_graph.php?scoreSdhashText_SingleCommon=41.94-31.44-24.38-15.88-7.88-4-2.94-2.38-1.44-1.19&matchSdhashText_SingleCommon=100-93.75-68.75-12.5-0-0-0-0-0-0&scoreSsdeepText_SingleCommon=48.06-39-30.19-15.13-3.56-0-0-0-0-0&matchSsdeepText_SingleCommon=87.5-81.25-75-37.5-12.5-0-0-0-0-0&scoreSdhashDocx_SingleCommon=6.13-6.63-8.13-9.19-9.31-7.75-7.56-9.19-9.5-8.63&matchSdhashDocx_SingleCommon=12.5-12.5-18.75-18.75-18.75-18.75-18.75-18.75-18.75-18.75&scoreSsdeepDocx_SingleCommon=3.38-3.56-6.31-7-10.19-6.69-6.81-8.38-4.69-4.25&matchSsdeepDocx_SingleCommon=6.25-6.25-12.5-12.5-18.75-12.5-12.5-12.5-6.25-6.25
+- 02:08:18.906 DEBUG: OnContextCreated()
+- 02:08:18.500 INFO: GET 200 /src/evaluateRelatedDocument.php
+- 02:08:18.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateRelatedDocument.php
+- 02:08:20.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateRelatedDocument.php
+- 02:08:20.671 DEBUG: OnContextCreated()
+- 02:08:48.875 INFO: GET 200 /src/ComparativeAssessmentMultipleBlock.php?threshold=22
+- 02:08:48.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/ComparativeAssessmentMultipleBlock.php?threshold=22
+[0404/021352.699:INFO:CONSOLE(16)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:54583/src/ComparativeAssessmentMultipleBlock.php?threshold=22 (16)
+- 02:13:52.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/ComparativeAssessmentMultipleBlock.php?threshold=22
+- 02:13:52.187 DEBUG: OnContextCreated()
+- 02:13:52.766 INFO: GET 200 /src/result_report_smallest_related_common_block_graph_multiple.php?scoreSdhashText_MultipleCommon=17.35-10.75-6.12-2.81-0.82-0.25-0.18-0.12-0.06-0.01&matchSdhashText_MultipleCommon=37-21-2-0-0-0-0-0-0-0&scoreSsdeepText_MultipleCommon=10.04-3.4-1.72-0.3-0-0-0-0-0-0&matchSsdeepText_MultipleCommon=19.75-7.75-4.5-0.75-0-0-0-0-0-0&scoreSdhashDocx_MultipleCommon=2.78-1.6-2.47-3.6-7.07-7.84-7.9-7.57-7.17-5.73&matchSdhashDocx_MultipleCommon=5.9-0-0-0-9.52-12.7-11.34-13.15-11.34-13.61&scoreSsdeepDocx_MultipleCommon=16.9-14.37-10.46-11-16.74-18.14-16.05-15.92-14.22-10.55&matchSsdeepDocx_MultipleCommon=38.55-34.01-22.68-22.68-31.75-34.01-29.93-29.93-26.76-20.41
+- 02:13:52.375 DEBUG: OnContextCreated()
+- 02:13:53.406 DEBUG: OnContextCreated()
+- 02:13:53.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/result_report_smallest_related_common_block_graph_multiple.php?scoreSdhashText_MultipleCommon=17.35-10.75-6.12-2.81-0.82-0.25-0.18-0.12-0.06-0.01&matchSdhashText_MultipleCommon=37-21-2-0-0-0-0-0-0-0&scoreSsdeepText_MultipleCommon=10.04-3.4-1.72-0.3-0-0-0-0-0-0&matchSsdeepText_MultipleCommon=19.75-7.75-4.5-0.75-0-0-0-0-0-0&scoreSdhashDocx_MultipleCommon=2.78-1.6-2.47-3.6-7.07-7.84-7.9-7.57-7.17-5.73&matchSdhashDocx_MultipleCommon=5.9-0-0-0-9.52-12.7-11.34-13.15-11.34-13.61&scoreSsdeepDocx_MultipleCommon=16.9-14.37-10.46-11-16.74-18.14-16.05-15.92-14.22-10.55&matchSsdeepDocx_MultipleCommon=38.55-34.01-22.68-22.68-31.75-34.01-29.93-29.93-26.76-20.41
+- 02:14:01.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/result_report_smallest_related_common_block_graph_multiple.php?scoreSdhashText_MultipleCommon=17.35-10.75-6.12-2.81-0.82-0.25-0.18-0.12-0.06-0.01&matchSdhashText_MultipleCommon=37-21-2-0-0-0-0-0-0-0&scoreSsdeepText_MultipleCommon=10.04-3.4-1.72-0.3-0-0-0-0-0-0&matchSsdeepText_MultipleCommon=19.75-7.75-4.5-0.75-0-0-0-0-0-0&scoreSdhashDocx_MultipleCommon=2.78-1.6-2.47-3.6-7.07-7.84-7.9-7.57-7.17-5.73&matchSdhashDocx_MultipleCommon=5.9-0-0-0-9.52-12.7-11.34-13.15-11.34-13.61&scoreSsdeepDocx_MultipleCommon=16.9-14.37-10.46-11-16.74-18.14-16.05-15.92-14.22-10.55&matchSsdeepDocx_MultipleCommon=38.55-34.01-22.68-22.68-31.75-34.01-29.93-29.93-26.76-20.41
+- 02:14:01.875 DEBUG: OnContextCreated()
+- 02:14:01.454 INFO: GET 200 /src/evaluateRelatedDocument.php
+- 02:14:01.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateRelatedDocument.php
+- 02:14:05.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateRelatedDocument.php
+- 02:14:05.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateRelatedDocument.php#
+- 02:14:06.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateRelatedDocument.php#
+- 02:14:06.922 INFO: GET 200 /src/evaluateSoftwareVersionDetection.php
+- 02:14:06.343 DEBUG: OnContextCreated()
+- 02:14:07.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateSoftwareVersionDetection.php
+- 02:14:08.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateSoftwareVersionDetection.php
+- 02:14:08.875 DEBUG: OnContextCreated()
+- 02:16:38.297 INFO: GET 200 /src/result_report_codeIdentification.php?threshold=22
+- 02:16:38.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/result_report_codeIdentification.php?threshold=22
+[0404/021641.280:INFO:CONSOLE(22)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:54583/src/result_report_codeIdentification.php?threshold=22 (22)
+- 02:16:41.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/result_report_codeIdentification.php?threshold=22
+- 02:16:41.718 DEBUG: OnContextCreated()
+- 02:16:41.313 INFO: GET 200 /src/result_report_code_identification_graph.php?ssdeepExeFSCORE=0.24353482468666&ssdeepDllFSCORE=0.33767050097429&ssdeepExeMCC=0.31615683876965&ssdeepDllMCC=0.3982325293805&sdhashExeFSCORE=0.32233869777056&sdhashDllFSCORE=0.3370233702337&sdhashExeMCC=0.31353970732856&sdhashDllMCC=0.40162049183112&numOfExe=887&numOfDll=346&ssdeepExePRE=0.72898527782175&ssdeepDllPRE=0.9658396260338&sdhashExePRE=0.71730845051912&sdhashDllPRE=0.98018712162906&ssdeepExeRECALL=0.14618583537031&ssdeepDllRECALL=0.20460085313833&sdhashExeRECALL=0.20787629494211&sdhashDllRECALL=0.20349634369287&ssdeepExeFPR=0.0021759881235788&ssdeepDllFPR=0.0015870894450199&sdhashExeFPR=0.0015870894450199&sdhashDllFPR=0.0015870894450199&ssdeepExeFNR=0.034185383511552&ssdeepDllFNR=0.17444618931471&sdhashExeFNR=0.17444618931471&sdhashDllFNR=0.17444618931471
+[0404/021641.520:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+- 02:16:41.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/result_report_code_identification_graph.php?ssdeepExeFSCORE=0.24353482468666&ssdeepDllFSCORE=0.33767050097429&ssdeepExeMCC=0.31615683876965&ssdeepDllMCC=0.3982325293805&sdhashExeFSCORE=0.32233869777056&sdhashDllFSCORE=0.3370233702337&sdhashExeMCC=0.31353970732856&sdhashDllMCC=0.40162049183112&numOfExe=887&numOfDll=346&ssdeepExePRE=0.72898527782175&ssdeepDllPRE=0.9658396260338&sdhashExePRE=0.71730845051912&sdhashDllPRE=0.98018712162906&ssdeepExeRECALL=0.14618583537031&ssdeepDllRECALL=0.20460085313833&sdhashExeRECALL=0.20787629494211&sdhashDllRECALL=0.20349634369287&ssdeepExeFPR=0.0021759881235788&ssdeepDllFPR=0.0015870894450199&sdhashExeFPR=0.0015870894450199&sdhashDllFPR=0.0015870894450199&ssdeepExeFNR=0.034185383511552&ssdeepDllFNR=0.17444618931471&sdhashExeFNR=0.17444618931471&sdhashDllFNR=0.17444618931471
+- 02:16:58.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/result_report_code_identification_graph.php?ssdeepExeFSCORE=0.24353482468666&ssdeepDllFSCORE=0.33767050097429&ssdeepExeMCC=0.31615683876965&ssdeepDllMCC=0.3982325293805&sdhashExeFSCORE=0.32233869777056&sdhashDllFSCORE=0.3370233702337&sdhashExeMCC=0.31353970732856&sdhashDllMCC=0.40162049183112&numOfExe=887&numOfDll=346&ssdeepExePRE=0.72898527782175&ssdeepDllPRE=0.9658396260338&sdhashExePRE=0.71730845051912&sdhashDllPRE=0.98018712162906&ssdeepExeRECALL=0.14618583537031&ssdeepDllRECALL=0.20460085313833&sdhashExeRECALL=0.20787629494211&sdhashDllRECALL=0.20349634369287&ssdeepExeFPR=0.0021759881235788&ssdeepDllFPR=0.0015870894450199&sdhashExeFPR=0.0015870894450199&sdhashDllFPR=0.0015870894450199&ssdeepExeFNR=0.034185383511552&ssdeepDllFNR=0.17444618931471&sdhashExeFNR=0.17444618931471&sdhashDllFNR=0.17444618931471
+- 02:16:58.156 DEBUG: OnContextCreated()
+- 02:16:58.735 INFO: GET 200 /src/evaluateSoftwareVersionDetection.php
+- 02:16:58.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateSoftwareVersionDetection.php
+- 02:17:03.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateSoftwareVersionDetection.php
+- 02:17:03.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/evaluateSoftwareVersionDetection.php#
+- 02:17:04.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/evaluateSoftwareVersionDetection.php#
+- 02:17:04.407 INFO: GET 200 /src/GenerateFragment.php
+- 02:17:04.859 DEBUG: OnContextCreated()
+- 02:17:04.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/GenerateFragment.php
+- 02:17:13.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54583/src/GenerateFragment.php
+- 02:17:13.562 DEBUG: OnContextCreated()
+- 02:17:13.157 INFO: GET 200 /src/uploadFragmentFiles.php?setType=TEXT&FragmentType=FromBeginning
+- 02:17:13.157 INFO: GET 200 /includes/loadingScript.js
+- 02:17:13.329 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/src/uploadFragmentFiles.php?setType=TEXT&FragmentType=FromBeginning
+- 02:20:34.172 INFO: GET 200 /images/loading.gif
+- 02:20:48.954 INFO: POST 200 /src/GenerateFragmentTextFromBeginning.php
+- 02:20:53.016 DEBUG: ClientHandler::OnBeforePopup()
+- 02:20:53.016 INFO: Setting default size for a popup window 800/600
+- 02:20:53.016 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 02:20:53.032 DEBUG: Window max width/height = 3780/2042
+- 02:20:53.453 DEBUG: OnBrowserCreated()
+- 02:20:53.063 DEBUG: ClientHandler::OnAfterCreated()
+- 02:20:53.063 DEBUG: GetBrowserWindow(): not found, hwnd = 400682
+- 02:20:53.079 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 02:20:53.094 DEBUG: StoreBrowserWindow(): hwnd = 400682
+- 02:20:53.110 DEBUG: Centering popup window relative to its parent
+- 02:20:53.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 02:20:53.188 INFO: GET 200 /DataUserGenerated/FragmentIdentification/TextData/FromBegnning/Results/
+- 02:20:53.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54583/DataUserGenerated//FragmentIdentification//TextData//FromBegnning//Results//
+- 02:20:58.844 DEBUG: OnBeforeClose() hwnd=400682
+- 02:20:58.844 DEBUG: RemoveBrowserWindow(): hwnd = 400682
+- 02:20:58.312 DEBUG: OnBrowserDestroyed()
+- 03:07:44.125 INFO: --------------------------------------------------------
+- 03:07:44.125 INFO: Started application
+- 03:07:44.125 INFO: Logging to: C:\phpdesktop\debug.log
+- 03:07:44.125 INFO: Log level = DEBUG4
+- 03:07:44.125 INFO: Starting Mongoose 3.9c web server
+- 03:07:44.125 INFO: WWW directory: C:\phpdesktop\www
+- 03:07:44.125 INFO: Index files: index.html,index.php
+- 03:07:44.125 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 03:07:44.125 INFO: CGI pattern: **.php$
+- 03:07:44.125 INFO: Hide files patterns: 
+- 03:07:44.125 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 03:07:44.125 INFO: Web server url: http://127.0.0.1:54983/
+- 03:07:44.125 INFO: remote_debugging_port = 59039
+- 03:07:44.140 DEBUG: Command line string for the browser process: "C:\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=59039
+- 03:07:44.265 DEBUG: App::OnContextInitialized()
+- 03:07:44.265 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 03:07:44.265 DEBUG: Window max width/height = 3780/2042
+- 03:07:44.281 DEBUG: GetBrowserWindow(): not found, hwnd = 400284
+- 03:07:44.281 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 03:07:44.296 DEBUG: BrowserWindow::CreateBrowserControl()
+- 03:07:44.296 DEBUG: StoreBrowserWindow(): hwnd = 400284
+- 03:07:44.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=78854347A680A62542F0B43C3E007E99 --mojo-platform-channel-handle=1776 /prefetch:2
+- 03:07:44.484 DEBUG: ClientHandler::OnAfterCreated()
+[0404/030744.863:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 03:07:44.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 03:07:44.546 DEBUG: OnLoadingStateChange: loading=1, url=
+- 03:07:44.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=21449307CD0E723C149D1AD3CEC27FE9 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=21449307CD0E723C149D1AD3CEC27FE9 --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+- 03:07:45.062 DEBUG: OnBrowserCreated()
+[0404/030745.048:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0404/030745.048:ERROR:cache_util.cc(134)] Unable to move cache folder C:\phpdesktop\webcache\GPUCache to C:\phpdesktop\webcache\old_GPUCache_000
+[0404/030745.048:ERROR:disk_cache.cc(132)] Unable to create cache
+[0404/030745.048:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0404/030745.053:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0404/030745.053:ERROR:cache_util.cc(134)] Unable to move cache folder C:\phpdesktop\webcache\Cache to C:\phpdesktop\webcache\old_Cache_000
+[0404/030745.053:ERROR:disk_cache.cc(132)] Unable to create cache
+- 03:07:46.781 INFO: GET 200 /css/reset.css
+- 03:07:46.781 INFO: GET 200 /css/layout.css
+- 03:07:46.172 DEBUG: OnContextCreated()
+- 03:07:46.781 INFO: GET 200 /
+- 03:07:46.781 INFO: GET 200 /css/main_style.css
+- 03:07:46.796 INFO: GET 200 /images/banner.png
+- 03:07:46.796 INFO: GET 200 /images/info_black-128x128.png
+- 03:07:46.968 INFO: GET 404 /images/bg_header.jpg
+- 03:07:46.968 INFO: GET 404 /images/splash_bg.jpg
+- 03:07:46.046 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54983/
+- 03:07:50.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54983/
+- 03:07:50.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54983/#
+- 03:07:51.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54983/#
+- 03:07:51.296 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 03:07:51.703 DEBUG: OnContextCreated()
+- 03:07:51.312 INFO: GET 200 /css/reset.css
+- 03:07:51.312 INFO: GET 200 /css/main_style.css
+- 03:07:51.312 INFO: GET 200 /css/layout.css
+- 03:07:51.375 INFO: GET 404 /images/bg_header.jpg
+- 03:07:51.375 INFO: GET 404 /images/splash_bg.jpg
+- 03:07:51.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54983/src/evaluateEmbeddedObject.php
+- 03:07:53.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54983/src/evaluateEmbeddedObject.php
+- 03:07:53.266 DEBUG: OnContextCreated()
+- 03:07:53.875 INFO: GET 200 /css/reset.css
+- 03:07:53.875 INFO: GET 200 /css/layout.css
+- 03:07:53.875 INFO: GET 200 /css/main_style.css
+- 03:07:53.921 INFO: GET 200 /includes/loader.js
+- 03:07:53.984 INFO: GET 404 /images/bg_header.jpg
+- 03:07:53.984 INFO: GET 404 /images/splash_bg.jpg
+- 03:07:54.250 INFO: GET 200 /src/result_report_embedded_object_based_search.php?threshold=22
+- 03:07:54.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54983/src/result_report_embedded_object_based_search.php?threshold=22
+- 03:07:57.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54983/src/result_report_embedded_object_based_search.php?threshold=22
+- 03:07:57.875 DEBUG: OnContextCreated()
+- 03:07:57.484 INFO: GET 200 /src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+- 03:07:58.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54983/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+[0404/030758.242:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0404/030758.242:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0404/030758.244:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+- 03:10:47.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54983/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+- 03:10:47.219 DEBUG: OnContextCreated()
+- 03:10:47.828 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 03:10:47.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54983/src/evaluateEmbeddedObject.php
+- 03:13:16.671 DEBUG: WM_DESTROY
+- 03:13:16.687 DEBUG: RemoveBrowserWindow(): hwnd = 400284
+- 03:13:16.687 INFO: Stopping Mongoose web server
+- 03:13:16.703 DEBUG: Mongoose webserver stopped immediately
+- 03:13:16.703 DEBUG: OnBeforeClose() hwnd=793516
+- 03:13:16.703 DEBUG: RemoveBrowserWindow(): hwnd = 793516
+- 03:13:16.703 DEBUG: GetBrowserWindow(): not found, hwnd = 793516
+- 03:13:16.718 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 03:13:16.718 DEBUG: Calling CefQuitMessageLoop()
+- 03:13:16.141 DEBUG: OnBrowserDestroyed()
+- 03:13:16.859 INFO: Ended application
+- 03:13:16.875 INFO: --------------------------------------------------------
+- 03:13:18.110 DEBUG: WM_DESTROY
+- 03:13:18.110 DEBUG: RemoveBrowserWindow(): hwnd = 1253510
+- 03:13:18.110 INFO: Stopping Mongoose web server
+- 03:13:18.125 DEBUG: Mongoose webserver stopped immediately
+- 03:13:18.157 DEBUG: OnBeforeClose() hwnd=4858844
+- 03:13:18.172 DEBUG: RemoveBrowserWindow(): hwnd = 4858844
+- 03:13:18.188 DEBUG: GetBrowserWindow(): not found, hwnd = 4858844
+- 03:13:18.188 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 03:13:18.204 DEBUG: Calling CefQuitMessageLoop()
+- 03:13:18.718 DEBUG: OnBrowserDestroyed()
+- 03:13:18.407 INFO: Ended application
+- 03:13:18.407 INFO: --------------------------------------------------------
+- 03:15:09.141 INFO: --------------------------------------------------------
+- 03:15:09.141 INFO: Started application
+- 03:15:09.141 INFO: Logging to: C:\phpdesktop\debug.log
+- 03:15:09.141 INFO: Log level = DEBUG4
+- 03:15:09.141 INFO: Starting Mongoose 3.9c web server
+- 03:15:09.141 INFO: WWW directory: C:\phpdesktop\www
+- 03:15:09.141 INFO: Index files: index.html,index.php
+- 03:15:09.141 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 03:15:09.141 INFO: CGI pattern: **.php$
+- 03:15:09.141 INFO: Hide files patterns: 
+- 03:15:09.141 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 03:15:09.156 INFO: Web server url: http://127.0.0.1:55053/
+- 03:15:09.156 INFO: remote_debugging_port = 53177
+- 03:15:09.156 DEBUG: Command line string for the browser process: "C:\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=53177
+- 03:15:09.281 DEBUG: App::OnContextInitialized()
+- 03:15:09.281 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 03:15:09.281 DEBUG: Window max width/height = 3780/2042
+- 03:15:09.297 DEBUG: GetBrowserWindow(): not found, hwnd = 269818
+- 03:15:09.297 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 03:15:09.297 DEBUG: BrowserWindow::CreateBrowserControl()
+- 03:15:09.297 DEBUG: StoreBrowserWindow(): hwnd = 269818
+- 03:15:09.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=BD73ED83BE8F2AAE1673B75AEC07A3D3 --mojo-platform-channel-handle=1788 /prefetch:2
+[0404/031509.840:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 03:15:09.484 DEBUG: ClientHandler::OnAfterCreated()
+- 03:15:09.484 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 03:15:09.562 DEBUG: OnLoadingStateChange: loading=1, url=
+- 03:15:09.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6480B49BB60958096397BDBB34CD29BF --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6480B49BB60958096397BDBB34CD29BF --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+- 03:15:10.063 DEBUG: OnBrowserCreated()
+- 03:15:11.828 INFO: GET 200 /css/reset.css
+- 03:15:11.844 INFO: GET 200 /css/main_style.css
+- 03:15:11.844 INFO: GET 200 /css/layout.css
+- 03:15:11.235 DEBUG: OnContextCreated()
+- 03:15:11.844 INFO: GET 200 /
+- 03:15:11.859 INFO: GET 200 /images/banner.png
+- 03:15:11.891 INFO: GET 200 /images/info_black-128x128.png
+- 03:15:11.906 INFO: GET 404 /images/bg_header.jpg
+- 03:15:11.906 INFO: GET 404 /images/splash_bg.jpg
+- 03:15:11.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55053/
+- 03:15:35.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55053/
+- 03:15:35.938 DEBUG: OnContextCreated()
+- 03:15:35.562 INFO: GET 200 /src/inputEXEC.php
+- 03:15:35.578 INFO: GET 200 /includes/loadingScript.js
+- 03:15:35.641 INFO: GET 404 /images/bg_header.jpg
+- 03:15:35.641 INFO: GET 404 /images/splash_bg.jpg
+- 03:15:36.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55053/src/inputEXEC.php
+- 03:15:37.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55053/src/inputEXEC.php
+- 03:15:37.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55053/src/inputEXEC.php#
+- 03:44:38.437 DEBUG: WM_DESTROY
+- 03:44:38.437 DEBUG: RemoveBrowserWindow(): hwnd = 269818
+- 03:44:38.437 INFO: Stopping Mongoose web server
+- 03:44:38.453 DEBUG: Mongoose webserver stopped immediately
+- 03:44:38.562 DEBUG: OnBeforeClose() hwnd=926082
+- 03:44:38.594 DEBUG: RemoveBrowserWindow(): hwnd = 926082
+- 03:44:38.609 DEBUG: GetBrowserWindow(): not found, hwnd = 926082
+- 03:44:38.641 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 03:44:39.656 DEBUG: Calling CefQuitMessageLoop()
+- 03:44:39.141 DEBUG: OnBrowserDestroyed()
+- 03:44:39.812 INFO: Ended application
+- 03:44:39.812 INFO: --------------------------------------------------------
+- 18:01:54.125 INFO: --------------------------------------------------------
+- 18:01:54.125 INFO: Started application
+- 18:01:54.125 INFO: Logging to: C:\phpdesktop\debug.log
+- 18:01:54.125 INFO: Log level = DEBUG4
+- 18:01:54.125 INFO: Starting Mongoose 3.9c web server
+- 18:01:54.125 INFO: WWW directory: C:\phpdesktop\www
+- 18:01:54.125 INFO: Index files: index.html,index.php
+- 18:01:54.125 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 18:01:54.125 INFO: CGI pattern: **.php$
+- 18:01:54.125 INFO: Hide files patterns: 
+- 18:01:54.125 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:01:54.125 INFO: Web server url: http://127.0.0.1:52257/
+- 18:01:54.125 INFO: remote_debugging_port = 57695
+- 18:01:54.140 DEBUG: Command line string for the browser process: "C:\phpdesktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=57695
+- 18:01:55.000 DEBUG: App::OnContextInitialized()
+- 18:01:55.000 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 18:01:55.000 DEBUG: Window max width/height = 3780/2042
+- 18:01:55.015 DEBUG: GetBrowserWindow(): not found, hwnd = 136130
+- 18:01:55.015 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:01:55.015 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:01:55.015 DEBUG: StoreBrowserWindow(): hwnd = 136130
+- 18:01:55.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=04A253B648557E2513022191DD441AE1 --mojo-platform-channel-handle=1820 /prefetch:2
+- 18:01:55.078 DEBUG: ClientHandler::OnAfterCreated()
+- 18:01:55.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:01:55.093 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:01:55.016 DEBUG: Command line string for the renderer process: "C:\phpdesktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0233893F2BC6BA57F9B680A5DC0D3392 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0233893F2BC6BA57F9B680A5DC0D3392 --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 18:01:55.063 DEBUG: OnBrowserCreated()
+[0405/180156.992:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:02:01.375 INFO: GET 200 /
+- 18:02:01.235 DEBUG: OnContextCreated()
+- 18:02:01.375 INFO: GET 200 /css/reset.css
+- 18:02:01.375 INFO: GET 200 /css/layout.css
+- 18:02:01.375 INFO: GET 200 /css/main_style.css
+- 18:02:01.390 INFO: GET 200 /images/banner.png
+- 18:02:01.406 INFO: GET 200 /images/info_black-128x128.png
+- 18:02:01.422 INFO: GET 404 /images/bg_header.jpg
+- 18:02:01.422 INFO: GET 404 /images/splash_bg.jpg
+- 18:02:02.468 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/
+- 18:02:08.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/
+- 18:02:08.235 DEBUG: OnContextCreated()
+- 18:02:08.390 INFO: GET 200 /src/about.php
+- 18:02:08.390 INFO: GET 404 /images/bg_header.jpg
+- 18:02:08.390 INFO: GET 404 /images/splash_bg.jpg
+- 18:02:08.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/about.php
+- 18:02:19.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/about.php
+- 18:02:19.750 DEBUG: OnContextCreated()
+- 18:02:19.890 INFO: GET 200 /src/contacts.php
+- 18:02:19.906 INFO: GET 404 /images/bg_header.jpg
+- 18:02:19.906 INFO: GET 404 /images/splash_bg.jpg
+- 18:02:19.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/contacts.php
+- 18:02:20.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/contacts.php
+- 18:02:20.141 DEBUG: OnContextCreated()
+- 18:02:20.297 INFO: GET 200 /src/Home.php
+- 18:02:20.297 INFO: GET 404 /images/bg_header.jpg
+- 18:02:20.312 INFO: GET 404 /images/splash_bg.jpg
+- 18:02:20.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/Home.php
+- 18:02:23.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/Home.php
+- 18:02:23.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/Home.php#
+- 18:02:25.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/Home.php#
+- 18:02:25.500 DEBUG: OnContextCreated()
+- 18:02:25.656 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 18:02:25.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/evaluateEmbeddedObject.php
+- 18:02:26.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/evaluateEmbeddedObject.php
+- 18:02:26.172 DEBUG: OnContextCreated()
+- 18:02:26.343 INFO: GET 200 /includes/loader.js
+- 18:02:27.328 INFO: GET 200 /src/result_report_embedded_object_based_search.php?threshold=22
+- 18:02:27.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search.php?threshold=22
+- 18:02:30.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search.php?threshold=22
+- 18:02:30.250 DEBUG: OnContextCreated()
+- 18:02:30.390 INFO: GET 200 /src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+- 18:02:31.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+[0405/180231.214:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0405/180231.215:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0405/180231.215:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0405/180235.618:INFO:CONSOLE(544)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52257/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12 (544)
+- 18:02:35.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+- 18:02:35.969 DEBUG: OnContextCreated()
+- 18:02:36.984 INFO: GET 200 /src/result_report_embedded_object_based_search.php?threshold=22
+- 18:02:36.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search.php?threshold=22
+- 18:02:38.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search.php?threshold=22
+- 18:02:38.468 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search.php?threshold=22#
+- 18:02:39.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search.php?threshold=22#
+- 18:02:39.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search.php?threshold=22#
+- 18:02:40.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/result_report_embedded_object_based_search.php?threshold=22#
+- 18:02:40.782 DEBUG: OnContextCreated()
+- 18:02:40.937 INFO: GET 200 /src/GenerateFragment.php
+- 18:02:40.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/GenerateFragment.php
+- 18:02:47.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52257/src/GenerateFragment.php
+- 18:02:47.063 DEBUG: OnContextCreated()
+- 18:02:47.218 INFO: GET 200 /src/uploadFragmentFiles.php?setType=TEXT&FragmentType=FromBeginning
+- 18:02:47.234 INFO: GET 200 /includes/loadingScript.js
+- 18:02:47.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/src/uploadFragmentFiles.php?setType=TEXT&FragmentType=FromBeginning
+- 18:02:56.265 INFO: GET 200 /images/loading.gif
+- 18:02:58.468 INFO: POST 200 /src/GenerateFragmentTextFromBeginning.php
+- 18:03:01.468 DEBUG: ClientHandler::OnBeforePopup()
+- 18:03:01.468 INFO: Setting default size for a popup window 800/600
+- 18:03:01.484 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 18:03:01.484 DEBUG: Window max width/height = 3780/2042
+- 18:03:01.360 DEBUG: OnBrowserCreated()
+- 18:03:01.531 DEBUG: ClientHandler::OnAfterCreated()
+- 18:03:01.531 DEBUG: GetBrowserWindow(): not found, hwnd = 136294
+- 18:03:01.531 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 18:03:01.547 DEBUG: StoreBrowserWindow(): hwnd = 136294
+- 18:03:01.562 DEBUG: Centering popup window relative to its parent
+- 18:03:01.593 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:03:01.656 INFO: GET 200 /DataUserGenerated/FragmentIdentification/TextData/FromBegnning/Results/
+- 18:03:01.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52257/DataUserGenerated//FragmentIdentification//TextData//FromBegnning//Results//
+- 18:03:03.687 DEBUG: OnBeforeClose() hwnd=136294
+- 18:03:03.687 DEBUG: RemoveBrowserWindow(): hwnd = 136294
+- 18:03:03.578 DEBUG: OnBrowserDestroyed()
+- 18:03:04.515 DEBUG: WM_DESTROY
+- 18:03:04.515 DEBUG: RemoveBrowserWindow(): hwnd = 136130
+- 18:03:04.515 INFO: Stopping Mongoose web server
+- 18:03:04.515 DEBUG: Mongoose webserver stopped immediately
+- 18:03:04.515 DEBUG: OnBeforeClose() hwnd=136106
+- 18:03:04.531 DEBUG: RemoveBrowserWindow(): hwnd = 136106
+- 18:03:04.531 DEBUG: GetBrowserWindow(): not found, hwnd = 136106
+- 18:03:04.531 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:03:04.531 DEBUG: Calling CefQuitMessageLoop()
+- 18:03:04.609 INFO: Ended application
+- 18:03:04.609 INFO: --------------------------------------------------------
+- 18:03:32.094 INFO: --------------------------------------------------------
+- 18:03:32.094 INFO: Started application
+- 18:03:32.094 INFO: Logging to: C:\phpdesktop\debug.log
+- 18:03:32.094 INFO: Log level = DEBUG4
+- 18:03:32.110 INFO: Starting Mongoose 3.9c web server
+- 18:03:32.110 INFO: WWW directory: C:\phpdesktop\www
+- 18:03:32.110 INFO: Index files: index.html,index.php
+- 18:03:32.110 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 18:03:32.110 INFO: CGI pattern: **.php$
+- 18:03:32.110 INFO: Hide files patterns: 
+- 18:03:32.110 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 18:03:32.110 INFO: Web server url: http://127.0.0.1:52291/
+- 18:03:32.110 INFO: remote_debugging_port = 57364
+- 18:03:32.110 DEBUG: Command line string for the browser process: "C:\phpdesktop\AMtoolTesting.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=57364
+- 18:03:32.188 DEBUG: App::OnContextInitialized()
+- 18:03:32.188 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 18:03:32.188 DEBUG: Window max width/height = 3780/2042
+- 18:03:32.188 DEBUG: GetBrowserWindow(): not found, hwnd = 328658
+- 18:03:32.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:03:32.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:03:32.188 DEBUG: StoreBrowserWindow(): hwnd = 328658
+- 18:03:32.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\AMtoolTesting.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=725D85201DD1E5043A1DBA8747B244CE --mojo-platform-channel-handle=1820 /prefetch:2
+- 18:03:32.297 DEBUG: ClientHandler::OnAfterCreated()
+- 18:03:32.297 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:03:32.328 DEBUG: OnLoadingStateChange: loading=1, url=
+[0405/180332.935:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 18:03:32.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\AMtoolTesting.exe" --type=renderer --no-sandbox --primordial-pipe-token=47DD3D595206353B039992FB3C44A1F2 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=47DD3D595206353B039992FB3C44A1F2 --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 18:03:33.063 DEBUG: OnBrowserCreated()
+- 18:03:34.563 INFO: GET 200 /css/reset.css
+- 18:03:34.563 INFO: GET 200 /css/main_style.css
+- 18:03:34.578 INFO: GET 200 /css/layout.css
+- 18:03:34.203 DEBUG: OnContextCreated()
+- 18:03:34.578 INFO: GET 200 /
+- 18:03:34.578 INFO: GET 200 /images/banner.png
+- 18:03:34.578 INFO: GET 200 /images/info_black-128x128.png
+- 18:03:34.610 INFO: GET 404 /images/bg_header.jpg
+- 18:03:34.610 INFO: GET 404 /images/splash_bg.jpg
+- 18:03:34.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52291/
+- 18:03:36.860 DEBUG: WM_DESTROY
+- 18:03:36.860 DEBUG: RemoveBrowserWindow(): hwnd = 328658
+- 18:03:36.860 INFO: Stopping Mongoose web server
+- 18:03:36.860 DEBUG: Mongoose webserver stopped immediately
+- 18:03:36.875 DEBUG: OnBeforeClose() hwnd=396132
+- 18:03:36.875 DEBUG: RemoveBrowserWindow(): hwnd = 396132
+- 18:03:36.875 DEBUG: GetBrowserWindow(): not found, hwnd = 396132
+- 18:03:36.875 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:03:36.891 DEBUG: Calling CefQuitMessageLoop()
+- 18:03:36.547 DEBUG: OnBrowserDestroyed()
+- 18:03:36.985 INFO: Ended application
+- 18:03:36.985 INFO: --------------------------------------------------------
+- 22:38:49.125 INFO: --------------------------------------------------------
+- 22:38:49.125 INFO: Started application
+- 22:38:49.125 INFO: Logging to: C:\phpdesktop\debug.log
+- 22:38:49.125 INFO: Log level = DEBUG4
+- 22:38:49.125 INFO: Starting Mongoose 3.9c web server
+- 22:38:49.125 INFO: WWW directory: C:\phpdesktop\www
+- 22:38:49.125 INFO: Index files: index.html,index.php
+- 22:38:49.125 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 22:38:49.125 INFO: CGI pattern: **.php$
+- 22:38:49.125 INFO: Hide files patterns: 
+- 22:38:49.125 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:38:49.141 INFO: Web server url: http://127.0.0.1:53418/
+- 22:38:49.172 INFO: remote_debugging_port = 51722
+- 22:38:49.172 DEBUG: Command line string for the browser process: "C:\phpdesktop\AMtoolTesting.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=51722
+- 22:38:50.250 DEBUG: App::OnContextInitialized()
+- 22:38:50.266 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 22:38:50.266 DEBUG: Window max width/height = 3780/2042
+- 22:38:50.266 DEBUG: GetBrowserWindow(): not found, hwnd = 1776664
+- 22:38:50.266 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:38:50.266 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:38:50.266 DEBUG: StoreBrowserWindow(): hwnd = 1776664
+- 22:38:50.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\AMtoolTesting.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=0333E07228EC6D0889133C8ABD4BD814 --mojo-platform-channel-handle=1776 /prefetch:2
+- 22:38:50.344 DEBUG: ClientHandler::OnAfterCreated()
+- 22:38:50.344 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:38:50.359 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:38:50.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\AMtoolTesting.exe" --type=renderer --no-sandbox --primordial-pipe-token=449DFDB047AB461AD899502854638906 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=449DFDB047AB461AD899502854638906 --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 22:38:50.062 DEBUG: OnBrowserCreated()
+[0405/223851.538:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:38:57.234 INFO: GET 200 /
+- 22:38:57.812 DEBUG: OnContextCreated()
+- 22:38:57.234 INFO: GET 200 /css/reset.css
+- 22:38:57.234 INFO: GET 200 /css/layout.css
+- 22:38:57.234 INFO: GET 200 /css/main_style.css
+- 22:38:57.266 INFO: GET 200 /images/banner.png
+- 22:38:57.266 INFO: GET 200 /images/info_black-128x128.png
+- 22:38:57.297 INFO: GET 404 /images/bg_header.jpg
+- 22:38:57.297 INFO: GET 404 /images/splash_bg.jpg
+- 22:38:57.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/
+- 22:39:01.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/
+- 22:39:01.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/#
+- 22:39:03.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/#
+- 22:39:03.609 DEBUG: OnContextCreated()
+- 22:39:03.047 INFO: GET 200 /src/evaluateFragment.php
+- 22:39:03.078 INFO: GET 404 /images/bg_header.jpg
+- 22:39:03.078 INFO: GET 404 /images/splash_bg.jpg
+- 22:39:03.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/evaluateFragment.php
+- 22:39:05.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/src/evaluateFragment.php
+- 22:39:05.312 DEBUG: OnContextCreated()
+- 22:39:05.781 INFO: GET 200 /includes/loader.js
+- 22:39:05.828 INFO: GET 404 /images/bg_header.jpg
+- 22:39:05.828 INFO: GET 404 /images/splash_bg.jpg
+- 22:39:11.937 INFO: GET 200 /src/result_report_text.php?threshold=22
+- 22:39:11.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/result_report_text.php?threshold=22
+[0405/223914.070:INFO:CONSOLE(22)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:53418/src/result_report_text.php?threshold=22 (22)
+- 22:39:14.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/src/result_report_text.php?threshold=22
+- 22:39:14.234 DEBUG: OnContextCreated()
+- 22:39:14.656 INFO: GET 200 /src/result_report_fragment_identification_graph.php?ssdeepSeqFSCORE=0.67219917012448&ssdeepRanFSCORE=0.67586206896552&ssdeepSeqMCC=0.7024438629319&ssdeepRanMCC=0.70540404666686&sdhashSeqFSCORE=0.87456037514654&sdhashRanFSCORE=0.87456037514654&sdhashSeqMCC=0.87639714896736&sdhashRanMCC=0.87639714896736&numOfText1=20&numOfText2=20&numOfSeqText=480&numOfRanText=480&ssdeepSeqPRE=1&ssdeepRanPRE=1&sdhashSeqPRE=1&sdhashRanPRE=1&ssdeepSeqRECALL=0.50625&ssdeepRanRECALL=0.51041666666667&sdhashSeqRECALL=0.77708333333333&sdhashRanRECALL=0.77708333333333&ssdeepSeqFSCOREDocx=0.44303797468354&ssdeepRanFSCOREDocx=0.39228295819936&ssdeepSeqMCCDocx=0.50693169319778&ssdeepRanMCCDocx=0.45491409885645&sdhashSeqFSCOREDocx=0.41621200311769&sdhashRanFSCOREDocx=0.44743481917578&sdhashSeqMCCDocx=0.39162184593968&sdhashRanMCCDocx=0.42132758985773&numOfDocx1=20&numOfDocx2=20&numOfSeqDocx=480&numOfRanDocx=480&ssdeepSeqPREDocx=0.92105263157895&ssdeepRanPREDocx=0.85915492957746&sdhashSeqPREDocx=0.33250311332503&sdhashRanPREDocx=0.37517630465444&ssdeepSeqRECALLDocx=0.29166666666667&ssdeepRanRECALLDocx=0.25416666666667&sdhashSeqRECALLDocx=0.55625&sdhashRanRECALLDocx=0.55416666666667&ssdeepSeqFPR=0&ssdeepRanFPR=0&sdhashSeqFPR=0&sdhashRanFPR=0&ssdeepSeqFPRDocx=0.00125&ssdeepRanFPRDocx=0.0020833333333333&sdhashSeqFPRDocx=0.055833333333333&sdhashRanFPRDocx=0.046145833333333&ssdeepSeqFNR=0.0246875&ssdeepRanFNR=0.024479166666667&sdhashSeqFNR=0.011145833333333&sdhashRanFNR=0.011145833333333&ssdeepSeqFNRDocx=0.035416666666667&ssdeepRanFNRDocx=0.037291666666667&sdhashSeqFNRDocx=0.0221875&sdhashRanFNRDocx=0.022291666666667
+- 22:39:14.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/result_report_fragment_identification_graph.php?ssdeepSeqFSCORE=0.67219917012448&ssdeepRanFSCORE=0.67586206896552&ssdeepSeqMCC=0.7024438629319&ssdeepRanMCC=0.70540404666686&sdhashSeqFSCORE=0.87456037514654&sdhashRanFSCORE=0.87456037514654&sdhashSeqMCC=0.87639714896736&sdhashRanMCC=0.87639714896736&numOfText1=20&numOfText2=20&numOfSeqText=480&numOfRanText=480&ssdeepSeqPRE=1&ssdeepRanPRE=1&sdhashSeqPRE=1&sdhashRanPRE=1&ssdeepSeqRECALL=0.50625&ssdeepRanRECALL=0.51041666666667&sdhashSeqRECALL=0.77708333333333&sdhashRanRECALL=0.77708333333333&ssdeepSeqFSCOREDocx=0.44303797468354&ssdeepRanFSCOREDocx=0.39228295819936&ssdeepSeqMCCDocx=0.50693169319778&ssdeepRanMCCDocx=0.45491409885645&sdhashSeqFSCOREDocx=0.41621200311769&sdhashRanFSCOREDocx=0.44743481917578&sdhashSeqMCCDocx=0.39162184593968&sdhashRanMCCDocx=0.42132758985773&numOfDocx1=20&numOfDocx2=20&numOfSeqDocx=480&numOfRanDocx=480&ssdeepSeqPREDocx=0.92105263157895&ssdeepRanPREDocx=0.85915492957746&sdhashSeqPREDocx=0.33250311332503&sdhashRanPREDocx=0.37517630465444&ssdeepSeqRECALLDocx=0.29166666666667&ssdeepRanRECALLDocx=0.25416666666667&sdhashSeqRECALLDocx=0.55625&sdhashRanRECALLDocx=0.55416666666667&ssdeepSeqFPR=0&ssdeepRanFPR=0&sdhashSeqFPR=0&sdhashRanFPR=0&ssdeepSeqFPRDocx=0.00125&ssdeepRanFPRDocx=0.0020833333333333&sdhashSeqFPRDocx=0.055833333333333&sdhashRanFPRDocx=0.046145833333333&ssdeepSeqFNR=0.0246875&ssdeepRanFNR=0.024479166666667&sdhashSeqFNR=0.011145833333333&sdhashRanFNR=0.011145833333333&ssdeepSeqFNRDocx=0.035416666666667&ssdeepRanFNRDocx=0.037291666666667&sdhashSeqFNRDocx=0.0221875&sdhashRanFNRDocx=0.022291666666667
+[0405/223914.517:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+- 22:40:37.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/src/result_report_fragment_identification_graph.php?ssdeepSeqFSCORE=0.67219917012448&ssdeepRanFSCORE=0.67586206896552&ssdeepSeqMCC=0.7024438629319&ssdeepRanMCC=0.70540404666686&sdhashSeqFSCORE=0.87456037514654&sdhashRanFSCORE=0.87456037514654&sdhashSeqMCC=0.87639714896736&sdhashRanMCC=0.87639714896736&numOfText1=20&numOfText2=20&numOfSeqText=480&numOfRanText=480&ssdeepSeqPRE=1&ssdeepRanPRE=1&sdhashSeqPRE=1&sdhashRanPRE=1&ssdeepSeqRECALL=0.50625&ssdeepRanRECALL=0.51041666666667&sdhashSeqRECALL=0.77708333333333&sdhashRanRECALL=0.77708333333333&ssdeepSeqFSCOREDocx=0.44303797468354&ssdeepRanFSCOREDocx=0.39228295819936&ssdeepSeqMCCDocx=0.50693169319778&ssdeepRanMCCDocx=0.45491409885645&sdhashSeqFSCOREDocx=0.41621200311769&sdhashRanFSCOREDocx=0.44743481917578&sdhashSeqMCCDocx=0.39162184593968&sdhashRanMCCDocx=0.42132758985773&numOfDocx1=20&numOfDocx2=20&numOfSeqDocx=480&numOfRanDocx=480&ssdeepSeqPREDocx=0.92105263157895&ssdeepRanPREDocx=0.85915492957746&sdhashSeqPREDocx=0.33250311332503&sdhashRanPREDocx=0.37517630465444&ssdeepSeqRECALLDocx=0.29166666666667&ssdeepRanRECALLDocx=0.25416666666667&sdhashSeqRECALLDocx=0.55625&sdhashRanRECALLDocx=0.55416666666667&ssdeepSeqFPR=0&ssdeepRanFPR=0&sdhashSeqFPR=0&sdhashRanFPR=0&ssdeepSeqFPRDocx=0.00125&ssdeepRanFPRDocx=0.0020833333333333&sdhashSeqFPRDocx=0.055833333333333&sdhashRanFPRDocx=0.046145833333333&ssdeepSeqFNR=0.0246875&ssdeepRanFNR=0.024479166666667&sdhashSeqFNR=0.011145833333333&sdhashRanFNR=0.011145833333333&ssdeepSeqFNRDocx=0.035416666666667&ssdeepRanFNRDocx=0.037291666666667&sdhashSeqFNRDocx=0.0221875&sdhashRanFNRDocx=0.022291666666667
+- 22:40:37.469 DEBUG: OnContextCreated()
+- 22:40:37.891 INFO: GET 200 /src/evaluateFragment.php
+- 22:40:37.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/evaluateFragment.php
+- 22:40:38.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/src/evaluateFragment.php
+- 22:40:38.047 DEBUG: OnContextCreated()
+- 22:40:39.672 INFO: GET 200 /src/result_report_smallest_fragment_correlation.php?threshold=22
+- 22:40:39.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/result_report_smallest_fragment_correlation.php?threshold=22
+- 22:40:45.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/src/result_report_smallest_fragment_correlation.php?threshold=22
+- 22:40:46.172 DEBUG: OnContextCreated()
+- 22:40:46.594 INFO: GET 200 /src/Home.php
+- 22:40:46.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/Home.php
+- 22:40:47.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/src/Home.php
+- 22:40:47.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/Home.php#
+- 22:40:48.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/src/Home.php#
+- 22:40:49.203 DEBUG: OnContextCreated()
+- 22:40:49.641 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 22:40:49.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/evaluateEmbeddedObject.php
+- 22:40:51.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53418/src/evaluateEmbeddedObject.php
+- 22:40:51.219 DEBUG: OnContextCreated()
+- 22:40:52.016 INFO: GET 200 /src/result_report_embedded_object_based_search.php?threshold=22
+- 22:40:52.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53418/src/result_report_embedded_object_based_search.php?threshold=22
+- 22:47:15.453 DEBUG: WM_DESTROY
+- 22:47:15.453 DEBUG: RemoveBrowserWindow(): hwnd = 1776664
+- 22:47:15.453 INFO: Stopping Mongoose web server
+- 22:47:15.453 DEBUG: Mongoose webserver stopped immediately
+- 22:47:15.469 DEBUG: OnBeforeClose() hwnd=465702
+- 22:47:15.469 DEBUG: RemoveBrowserWindow(): hwnd = 465702
+- 22:47:15.484 DEBUG: GetBrowserWindow(): not found, hwnd = 465702
+- 22:47:16.562 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:47:16.594 DEBUG: Calling CefQuitMessageLoop()
+- 22:47:16.312 DEBUG: OnBrowserDestroyed()
+- 22:47:16.828 INFO: Ended application
+- 22:47:16.828 INFO: --------------------------------------------------------
+- 01:36:45.094 INFO: --------------------------------------------------------
+- 01:36:45.094 INFO: Started application
+- 01:36:45.094 INFO: Logging to: C:\phpdesktop\debug.log
+- 01:36:45.094 INFO: Log level = DEBUG4
+- 01:36:45.094 INFO: Starting Mongoose 3.9c web server
+- 01:36:45.094 INFO: WWW directory: C:\phpdesktop\www
+- 01:36:45.094 INFO: Index files: index.html,index.php
+- 01:36:45.094 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 01:36:45.094 INFO: CGI pattern: **.php$
+- 01:36:45.094 INFO: Hide files patterns: 
+- 01:36:45.094 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:36:45.109 INFO: Web server url: http://127.0.0.1:54187/
+- 01:36:45.109 INFO: remote_debugging_port = 56015
+- 01:36:45.109 DEBUG: Command line string for the browser process: "C:\phpdesktop\AMtoolTesting.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=56015
+- 01:36:45.203 DEBUG: App::OnContextInitialized()
+- 01:36:45.219 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 01:36:45.219 DEBUG: Window max width/height = 3780/2042
+- 01:36:45.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1310800
+- 01:36:45.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:36:45.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:36:45.219 DEBUG: StoreBrowserWindow(): hwnd = 1310800
+- 01:36:45.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\AMtoolTesting.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=517AB7EB82C11DC7AACDD121E34660C9 --mojo-platform-channel-handle=1804 /prefetch:2
+- 01:36:45.328 DEBUG: ClientHandler::OnAfterCreated()
+- 01:36:45.328 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:36:45.359 DEBUG: OnLoadingStateChange: loading=1, url=
+[0406/013645.846:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:36:45.016 DEBUG: Command line string for the renderer process: "C:\phpdesktop\AMtoolTesting.exe" --type=renderer --no-sandbox --primordial-pipe-token=A56F40072D35F01EE0EAC604FD9A3C0B --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A56F40072D35F01EE0EAC604FD9A3C0B --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+- 01:36:45.047 DEBUG: OnBrowserCreated()
+- 01:36:47.625 INFO: GET 200 /css/reset.css
+- 01:36:47.625 INFO: GET 200 /css/layout.css
+- 01:36:47.625 INFO: GET 200 /
+- 01:36:47.219 DEBUG: OnContextCreated()
+- 01:36:47.641 INFO: GET 200 /css/main_style.css
+- 01:36:47.641 INFO: GET 200 /images/banner.png
+- 01:36:47.656 INFO: GET 200 /images/info_black-128x128.png
+- 01:36:47.672 INFO: GET 404 /images/bg_header.jpg
+- 01:36:47.672 INFO: GET 404 /images/splash_bg.jpg
+- 01:36:47.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54187/
+- 01:36:50.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54187/
+- 01:36:50.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54187/#
+- 01:36:53.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54187/#
+- 01:36:53.469 DEBUG: OnContextCreated()
+- 01:36:53.891 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 01:36:53.906 INFO: GET 404 /images/splash_bg.jpg
+- 01:36:53.906 INFO: GET 404 /images/bg_header.jpg
+- 01:36:53.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54187/src/evaluateEmbeddedObject.php
+- 01:36:55.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54187/src/evaluateEmbeddedObject.php
+- 01:36:56.360 DEBUG: OnContextCreated()
+- 01:36:56.797 INFO: GET 200 /includes/loader.js
+- 01:36:56.828 INFO: GET 404 /images/bg_header.jpg
+- 01:36:56.828 INFO: GET 404 /images/splash_bg.jpg
+- 01:37:03.656 INFO: GET 200 /src/result_report_single_common_object_based_search.php?threshold=22
+- 01:37:03.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54187/src/result_report_single_common_object_based_search.php?threshold=22
+- 01:37:06.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54187/src/result_report_single_common_object_based_search.php?threshold=22
+- 01:37:06.344 DEBUG: OnContextCreated()
+- 01:37:06.750 INFO: GET 200 /src/result_report_single_common_block_search_graph.php?ssdeepJpegFSCORE=0.74474133030131&ssdeepBmpFSCORE=0.80388793596341&ssdeepGifFSCORE=0.75531335149864&ssdeepTiffFSCORE=0.87101996762008&sdhashJpegFSCORE=0.82752120640905&sdhashBmpFSCORE=0.82442748091603&sdhashGifFSCORE=0.8297581013236&sdhashTiffFSCORE=0.89799635701275&ssdeepJpegMCC=0.72887312486627&ssdeepBmpMCC=0.79537564669675&ssdeepGifMCC=0.73441744247209&ssdeepTiffMCC=0.86123485030169&sdhashJpegMCC=0.80879807417403&sdhashBmpMCC=0.8049753327445&sdhashGifMCC=0.81288979857007&sdhashTiffMCC=0.89000322865014&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0&sdhashBmpACC=0&sdhashGifACC=0&sdhashTiffACC=0&ssdeepPPTXJpegFSCORE=0.4251968503937&ssdeepPPTXBmpFSCORE=0.82987951807229&ssdeepPPTXGifFSCORE=0.45301466594242&ssdeepPPTXTiffFSCORE=0.76682316118936&sdhashPPTXJpegFSCORE=0.35855855855856&sdhashPPTXBmpFSCORE=0.616899097621&sdhashPPTXGifFSCORE=0.35273052820054&sdhashPPTXTiffFSCORE=0.62023217247098&ssdeepPPTXJpegMCC=0.36540438416076&ssdeepPPTXBmpMCC=0.81087452664099&ssdeepPPTXGifMCC=0.39982552210148&ssdeepPPTXTiffMCC=0.7430071136111&sdhashPPTXJpegMCC=0.28109987601652&sdhashPPTXBmpMCC=0.5777741486659&sdhashPPTXGifMCC=0.27425100297999&sdhashPPTXTiffMCC=0.58084593075169&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0&sdhashPPTXBmpACC=0&sdhashPPTXGifACC=0&sdhashPPTXTiffACC=0&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1.1101381970813&sdhashAvgPre=0.98525561338857&ssdeepJpegPRE=0.86297760210804&ssdeepBmpPRE=0.93858477970628&ssdeepGifPRE=0.82994011976048&ssdeepTiffPRE=0.94607268464244&sdhashJpegPRE=0.7825311942959&sdhashBmpPRE=0.78832116788321&sdhashGifPRE=0.7632241813602&sdhashTiffPRE=0.82441471571906&ssdeepJpegRECALL=0.655&ssdeepBmpRECALL=0.703&ssdeepGifRECALL=0.693&ssdeepTiffRECALL=0.807&sdhashJpegRECALL=0.878&sdhashBmpRECALL=0.864&sdhashGifRECALL=0.909&sdhashTiffRECALL=0.986&ssdeepPPTXJpegPRE=0.4475138121547&ssdeepPPTXBmpPRE=0.80093023255814&ssdeepPPTXGifPRE=0.49583828775268&ssdeepPPTXTiffPRE=0.80152671755725&sdhashPPTXJpegPRE=0.32622950819672&sdhashPPTXBmpPRE=0.52294853963839&sdhashPPTXGifPRE=0.3192868719611&sdhashPPTXTiffPRE=0.52974504249292&ssdeepPPTXJpegRECALL=0.405&ssdeepPPTXBmpRECALL=0.861&ssdeepPPTXGifRECALL=0.417&ssdeepPPTXTiffRECALL=0.735&sdhashPPTXJpegRECALL=0.398&sdhashPPTXBmpRECALL=0.752&sdhashPPTXGifRECALL=0.394&sdhashPPTXTiffRECALL=0.748
+[0406/013706.389:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+- 01:37:06.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54187/src/result_report_single_common_block_search_graph.php?ssdeepJpegFSCORE=0.74474133030131&ssdeepBmpFSCORE=0.80388793596341&ssdeepGifFSCORE=0.75531335149864&ssdeepTiffFSCORE=0.87101996762008&sdhashJpegFSCORE=0.82752120640905&sdhashBmpFSCORE=0.82442748091603&sdhashGifFSCORE=0.8297581013236&sdhashTiffFSCORE=0.89799635701275&ssdeepJpegMCC=0.72887312486627&ssdeepBmpMCC=0.79537564669675&ssdeepGifMCC=0.73441744247209&ssdeepTiffMCC=0.86123485030169&sdhashJpegMCC=0.80879807417403&sdhashBmpMCC=0.8049753327445&sdhashGifMCC=0.81288979857007&sdhashTiffMCC=0.89000322865014&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0&sdhashBmpACC=0&sdhashGifACC=0&sdhashTiffACC=0&ssdeepPPTXJpegFSCORE=0.4251968503937&ssdeepPPTXBmpFSCORE=0.82987951807229&ssdeepPPTXGifFSCORE=0.45301466594242&ssdeepPPTXTiffFSCORE=0.76682316118936&sdhashPPTXJpegFSCORE=0.35855855855856&sdhashPPTXBmpFSCORE=0.616899097621&sdhashPPTXGifFSCORE=0.35273052820054&sdhashPPTXTiffFSCORE=0.62023217247098&ssdeepPPTXJpegMCC=0.36540438416076&ssdeepPPTXBmpMCC=0.81087452664099&ssdeepPPTXGifMCC=0.39982552210148&ssdeepPPTXTiffMCC=0.7430071136111&sdhashPPTXJpegMCC=0.28109987601652&sdhashPPTXBmpMCC=0.5777741486659&sdhashPPTXGifMCC=0.27425100297999&sdhashPPTXTiffMCC=0.58084593075169&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0&sdhashPPTXBmpACC=0&sdhashPPTXGifACC=0&sdhashPPTXTiffACC=0&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1.1101381970813&sdhashAvgPre=0.98525561338857&ssdeepJpegPRE=0.86297760210804&ssdeepBmpPRE=0.93858477970628&ssdeepGifPRE=0.82994011976048&ssdeepTiffPRE=0.94607268464244&sdhashJpegPRE=0.7825311942959&sdhashBmpPRE=0.78832116788321&sdhashGifPRE=0.7632241813602&sdhashTiffPRE=0.82441471571906&ssdeepJpegRECALL=0.655&ssdeepBmpRECALL=0.703&ssdeepGifRECALL=0.693&ssdeepTiffRECALL=0.807&sdhashJpegRECALL=0.878&sdhashBmpRECALL=0.864&sdhashGifRECALL=0.909&sdhashTiffRECALL=0.986&ssdeepPPTXJpegPRE=0.4475138121547&ssdeepPPTXBmpPRE=0.80093023255814&ssdeepPPTXGifPRE=0.49583828775268&ssdeepPPTXTiffPRE=0.80152671755725&sdhashPPTXJpegPRE=0.32622950819672&sdhashPPTXBmpPRE=0.52294853963839&sdhashPPTXGifPRE=0.3192868719611&sdhashPPTXTiffPRE=0.52974504249292&ssdeepPPTXJpegRECALL=0.405&ssdeepPPTXBmpRECALL=0.861&ssdeepPPTXGifRECALL=0.417&ssdeepPPTXTiffRECALL=0.735&sdhashPPTXJpegRECALL=0.398&sdhashPPTXBmpRECALL=0.752&sdhashPPTXGifRECALL=0.394&sdhashPPTXTiffRECALL=0.748
+- 01:37:17.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54187/src/result_report_single_common_block_search_graph.php?ssdeepJpegFSCORE=0.74474133030131&ssdeepBmpFSCORE=0.80388793596341&ssdeepGifFSCORE=0.75531335149864&ssdeepTiffFSCORE=0.87101996762008&sdhashJpegFSCORE=0.82752120640905&sdhashBmpFSCORE=0.82442748091603&sdhashGifFSCORE=0.8297581013236&sdhashTiffFSCORE=0.89799635701275&ssdeepJpegMCC=0.72887312486627&ssdeepBmpMCC=0.79537564669675&ssdeepGifMCC=0.73441744247209&ssdeepTiffMCC=0.86123485030169&sdhashJpegMCC=0.80879807417403&sdhashBmpMCC=0.8049753327445&sdhashGifMCC=0.81288979857007&sdhashTiffMCC=0.89000322865014&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0&sdhashBmpACC=0&sdhashGifACC=0&sdhashTiffACC=0&ssdeepPPTXJpegFSCORE=0.4251968503937&ssdeepPPTXBmpFSCORE=0.82987951807229&ssdeepPPTXGifFSCORE=0.45301466594242&ssdeepPPTXTiffFSCORE=0.76682316118936&sdhashPPTXJpegFSCORE=0.35855855855856&sdhashPPTXBmpFSCORE=0.616899097621&sdhashPPTXGifFSCORE=0.35273052820054&sdhashPPTXTiffFSCORE=0.62023217247098&ssdeepPPTXJpegMCC=0.36540438416076&ssdeepPPTXBmpMCC=0.81087452664099&ssdeepPPTXGifMCC=0.39982552210148&ssdeepPPTXTiffMCC=0.7430071136111&sdhashPPTXJpegMCC=0.28109987601652&sdhashPPTXBmpMCC=0.5777741486659&sdhashPPTXGifMCC=0.27425100297999&sdhashPPTXTiffMCC=0.58084593075169&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0&sdhashPPTXBmpACC=0&sdhashPPTXGifACC=0&sdhashPPTXTiffACC=0&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1.1101381970813&sdhashAvgPre=0.98525561338857&ssdeepJpegPRE=0.86297760210804&ssdeepBmpPRE=0.93858477970628&ssdeepGifPRE=0.82994011976048&ssdeepTiffPRE=0.94607268464244&sdhashJpegPRE=0.7825311942959&sdhashBmpPRE=0.78832116788321&sdhashGifPRE=0.7632241813602&sdhashTiffPRE=0.82441471571906&ssdeepJpegRECALL=0.655&ssdeepBmpRECALL=0.703&ssdeepGifRECALL=0.693&ssdeepTiffRECALL=0.807&sdhashJpegRECALL=0.878&sdhashBmpRECALL=0.864&sdhashGifRECALL=0.909&sdhashTiffRECALL=0.986&ssdeepPPTXJpegPRE=0.4475138121547&ssdeepPPTXBmpPRE=0.80093023255814&ssdeepPPTXGifPRE=0.49583828775268&ssdeepPPTXTiffPRE=0.80152671755725&sdhashPPTXJpegPRE=0.32622950819672&sdhashPPTXBmpPRE=0.52294853963839&sdhashPPTXGifPRE=0.3192868719611&sdhashPPTXTiffPRE=0.52974504249292&ssdeepPPTXJpegRECALL=0.405&ssdeepPPTXBmpRECALL=0.861&ssdeepPPTXGifRECALL=0.417&ssdeepPPTXTiffRECALL=0.735&sdhashPPTXJpegRECALL=0.398&sdhashPPTXBmpRECALL=0.752&sdhashPPTXGifRECALL=0.394&sdhashPPTXTiffRECALL=0.748
+- 01:37:17.860 DEBUG: OnContextCreated()
+- 01:37:17.266 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 01:37:17.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54187/src/evaluateEmbeddedObject.php
+- 01:37:20.078 DEBUG: WM_DESTROY
+- 01:37:20.078 DEBUG: RemoveBrowserWindow(): hwnd = 1310800
+- 01:37:20.078 INFO: Stopping Mongoose web server
+- 01:37:20.094 DEBUG: Mongoose webserver stopped immediately
+- 01:37:20.109 DEBUG: OnBeforeClose() hwnd=1251794
+- 01:37:20.109 DEBUG: RemoveBrowserWindow(): hwnd = 1251794
+- 01:37:20.109 DEBUG: GetBrowserWindow(): not found, hwnd = 1251794
+- 01:37:20.125 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:37:20.141 DEBUG: Calling CefQuitMessageLoop()
+- 01:37:20.750 DEBUG: OnBrowserDestroyed()
+- 01:37:20.234 INFO: Ended application
+- 01:37:20.234 INFO: --------------------------------------------------------
+- 01:37:32.094 INFO: --------------------------------------------------------
+- 01:37:32.094 INFO: Started application
+- 01:37:32.094 INFO: Logging to: C:\phpdesktop\debug.log
+- 01:37:32.094 INFO: Log level = DEBUG4
+- 01:37:32.094 INFO: Starting Mongoose 3.9c web server
+- 01:37:32.094 INFO: WWW directory: C:\phpdesktop\www
+- 01:37:32.094 INFO: Index files: index.html,index.php
+- 01:37:32.094 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 01:37:32.094 INFO: CGI pattern: **.php$
+- 01:37:32.094 INFO: Hide files patterns: 
+- 01:37:32.094 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:37:32.110 INFO: Web server url: http://127.0.0.1:54206/
+- 01:37:32.110 INFO: remote_debugging_port = 64166
+- 01:37:32.110 DEBUG: Command line string for the browser process: "C:\phpdesktop\AMtoolTesting.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=64166
+- 01:37:32.188 DEBUG: App::OnContextInitialized()
+- 01:37:32.188 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 01:37:32.188 DEBUG: Window max width/height = 3780/2042
+- 01:37:32.188 DEBUG: GetBrowserWindow(): not found, hwnd = 2298626
+- 01:37:32.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:37:32.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:37:32.188 DEBUG: StoreBrowserWindow(): hwnd = 2298626
+- 01:37:32.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\AMtoolTesting.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=648AAC27DE1EB6A6D97C66CC4141DEEC --mojo-platform-channel-handle=1792 /prefetch:2
+- 01:37:32.266 DEBUG: ClientHandler::OnAfterCreated()
+- 01:37:32.282 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:37:32.297 DEBUG: OnLoadingStateChange: loading=1, url=
+[0406/013732.752:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:37:32.000 DEBUG: Command line string for the renderer process: "C:\phpdesktop\AMtoolTesting.exe" --type=renderer --no-sandbox --primordial-pipe-token=89B51CE9DD1D0A054B8E80757359B6B0 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=89B51CE9DD1D0A054B8E80757359B6B0 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 01:37:32.047 DEBUG: OnBrowserCreated()
+- 01:37:33.547 INFO: GET 200 /css/reset.css
+- 01:37:33.547 INFO: GET 200 /css/main_style.css
+- 01:37:33.547 INFO: GET 200 /css/layout.css
+- 01:37:33.187 DEBUG: OnContextCreated()
+- 01:37:33.547 INFO: GET 200 /
+- 01:37:33.563 INFO: GET 200 /images/banner.png
+- 01:37:33.563 INFO: GET 200 /images/info_black-128x128.png
+- 01:37:34.594 INFO: GET 404 /images/bg_header.jpg
+- 01:37:34.594 INFO: GET 404 /images/splash_bg.jpg
+- 01:37:34.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54206/
+- 01:37:37.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54206/
+- 01:37:37.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54206/#
+- 01:37:40.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54206/#
+- 01:37:40.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54206/#
+- 01:37:43.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54206/#
+- 01:37:43.829 INFO: GET 200 /src/GenerateFragment.php
+- 01:37:43.484 DEBUG: OnContextCreated()
+- 01:37:43.860 INFO: GET 404 /images/bg_header.jpg
+- 01:37:43.860 INFO: GET 404 /images/splash_bg.jpg
+- 01:37:43.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54206/src/GenerateFragment.php
+- 01:37:51.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54206/src/GenerateFragment.php
+- 01:37:51.890 DEBUG: OnContextCreated()
+- 01:37:51.250 INFO: GET 200 /src/uploadFragmentFilesDocx.php?setType=DOCX&FragmentType=FromBeginning
+- 01:37:51.266 INFO: GET 200 /includes/loadingScript.js
+- 01:37:51.313 INFO: GET 404 /images/bg_header.jpg
+- 01:37:51.313 INFO: GET 404 /images/splash_bg.jpg
+- 01:37:51.329 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54206/src/uploadFragmentFilesDocx.php?setType=DOCX&FragmentType=FromBeginning
+- 01:38:05.313 INFO: GET 200 /images/loading.gif
+- 01:38:07.422 INFO: POST 200 /src/GenerateFragmentDocxFromBeginning.php
+- 01:38:07.438 INFO: GET 404 /images/splash_bg.jpg
+- 01:38:07.438 INFO: GET 404 /images/bg_header.jpg
+- 01:38:09.391 DEBUG: ClientHandler::OnBeforePopup()
+- 01:38:09.391 INFO: Setting default size for a popup window 800/600
+- 01:38:09.407 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 01:38:09.407 DEBUG: Window max width/height = 3780/2042
+- 01:38:09.062 DEBUG: OnBrowserCreated()
+- 01:38:09.454 DEBUG: ClientHandler::OnAfterCreated()
+- 01:38:09.454 DEBUG: GetBrowserWindow(): not found, hwnd = 1905298
+- 01:38:09.469 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 01:38:09.469 DEBUG: StoreBrowserWindow(): hwnd = 1905298
+- 01:38:09.485 DEBUG: Centering popup window relative to its parent
+- 01:38:09.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:38:10.610 INFO: GET 200 /DataUserGenerated/FragmentIdentification/DocxData/FromBegnning/Results/
+- 01:38:10.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54206/DataUserGenerated//FragmentIdentification//DocxData//FromBegnning//Results//
+- 01:38:12.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54206/DataUserGenerated//FragmentIdentification//DocxData//FromBegnning//Results//
+- 01:38:12.047 INFO: GET 200 /DataUserGenerated/FragmentIdentification/DocxData/FromBegnning/Results/OSDFcon (2)_13.docx
+- 01:38:12.047 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:54206/DataUserGenerated/FragmentIdentification/DocxData/FromBegnning/Results/OSDFcon%20(2)_13.docx
+- 01:38:12.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54206/DataUserGenerated//FragmentIdentification//DocxData//FromBegnning//Results//
+- 01:38:12.063 INFO: About to download a file: OSDFcon (2)_13.docx
+- 01:38:15.063 INFO: Download completed, saved to: C:\Users\Monika\Downloads\OSDFcon (2)_13.docx
+- 01:38:44.141 DEBUG: OnBeforeClose() hwnd=1905298
+- 01:38:44.141 DEBUG: RemoveBrowserWindow(): hwnd = 1905298
+- 01:38:44.828 DEBUG: OnBrowserDestroyed()
+- 01:39:40.782 INFO: POST 200 /src/GenerateFragmentDocxFromBeginning.php
+- 01:39:40.797 INFO: GET 404 /images/splash_bg.jpg
+- 01:39:40.797 INFO: GET 404 /images/bg_header.jpg
+- 01:39:43.157 DEBUG: ClientHandler::OnBeforePopup()
+- 01:39:43.157 INFO: Setting default size for a popup window 800/600
+- 01:39:43.157 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 01:39:43.172 DEBUG: Window max width/height = 3780/2042
+- 01:39:43.828 DEBUG: OnBrowserCreated()
+- 01:39:43.219 DEBUG: ClientHandler::OnAfterCreated()
+- 01:39:43.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1120440
+- 01:39:43.250 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 01:39:43.250 DEBUG: StoreBrowserWindow(): hwnd = 1120440
+- 01:39:43.282 DEBUG: Centering popup window relative to its parent
+- 01:39:43.282 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:39:43.344 INFO: GET 200 /DataUserGenerated/FragmentIdentification/DocxData/FromBegnning/Results/
+- 01:39:43.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54206/DataUserGenerated//FragmentIdentification//DocxData//FromBegnning//Results//
+- 01:39:51.360 DEBUG: OnBeforeClose() hwnd=1120440
+- 01:39:51.360 DEBUG: RemoveBrowserWindow(): hwnd = 1120440
+- 01:39:51.031 DEBUG: OnBrowserDestroyed()
+- 01:40:06.829 DEBUG: WM_DESTROY
+- 01:40:06.829 DEBUG: RemoveBrowserWindow(): hwnd = 2298626
+- 01:40:06.829 INFO: Stopping Mongoose web server
+- 01:40:06.875 DEBUG: Mongoose webserver stopped immediately
+- 01:40:06.875 DEBUG: OnBeforeClose() hwnd=2038350
+- 01:40:06.891 DEBUG: RemoveBrowserWindow(): hwnd = 2038350
+- 01:40:06.891 DEBUG: GetBrowserWindow(): not found, hwnd = 2038350
+- 01:40:06.891 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:40:06.938 DEBUG: Calling CefQuitMessageLoop()
+- 01:40:06.719 DEBUG: OnBrowserDestroyed()
+- 01:40:06.125 INFO: Ended application
+- 01:40:06.125 INFO: --------------------------------------------------------
+- 01:43:12.110 INFO: --------------------------------------------------------
+- 01:43:12.110 INFO: Started application
+- 01:43:12.110 INFO: Logging to: C:\phpdesktop\debug.log
+- 01:43:12.110 INFO: Log level = DEBUG4
+- 01:43:12.110 INFO: Starting Mongoose 3.9c web server
+- 01:43:12.110 INFO: WWW directory: C:\phpdesktop\www
+- 01:43:12.110 INFO: Index files: index.html,index.php
+- 01:43:12.110 INFO: CGI interpreter: C:\phpdesktop\php\php-cgi.exe
+- 01:43:12.110 INFO: CGI pattern: **.php$
+- 01:43:12.110 INFO: Hide files patterns: 
+- 01:43:12.110 INFO: CGI environment variables set: TMP=C:\Users\Monika\AppData\Local\Temp\,TEMP=C:\Users\Monika\AppData\Local\Temp\,TMPDIR=C:\Users\Monika\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:43:12.110 INFO: Web server url: http://127.0.0.1:54245/
+- 01:43:12.110 INFO: remote_debugging_port = 62292
+- 01:43:12.110 DEBUG: Command line string for the browser process: "C:\phpdesktop\AMtoolTesting.exe" --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --remote-debugging-port=62292
+- 01:43:12.204 DEBUG: App::OnContextInitialized()
+- 01:43:12.204 INFO: DPI, window enlarged by 200% new width/height = 2400/1800
+- 01:43:12.219 DEBUG: Window max width/height = 3780/2042
+- 01:43:12.235 DEBUG: GetBrowserWindow(): not found, hwnd = 1449028
+- 01:43:12.235 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:43:12.235 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:43:12.235 DEBUG: StoreBrowserWindow(): hwnd = 1449028
+- 01:43:12.000 DEBUG: Command line string for the gpu-process process: "C:\phpdesktop\AMtoolTesting.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\phpdesktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4836 --gpu-driver-date=10-17-2017 --lang=en-US --log-file="C:\phpdesktop\debug.log" --service-request-channel-token=067FF4A61D12B14BD28ACD56AC4D5B11 --mojo-platform-channel-handle=1776 /prefetch:2
+- 01:43:12.329 DEBUG: ClientHandler::OnAfterCreated()
+- 01:43:12.329 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[0406/014312.259:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:43:12.360 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:43:12.016 DEBUG: Command line string for the renderer process: "C:\phpdesktop\AMtoolTesting.exe" --type=renderer --no-sandbox --primordial-pipe-token=64A140177B1C381E9E3AE9F6DBC5A731 --lang=en-US --lang=en-US --log-file="C:\phpdesktop\debug.log" --enable-pinch --device-scale-factor=3 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=64A140177B1C381E9E3AE9F6DBC5A731 --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 01:43:12.063 DEBUG: OnBrowserCreated()
+- 01:43:13.594 INFO: GET 200 /css/reset.css
+- 01:43:13.594 INFO: GET 200 /css/main_style.css
+- 01:43:13.594 INFO: GET 200 /css/layout.css
+- 01:43:13.610 INFO: GET 200 /
+- 01:43:13.219 DEBUG: OnContextCreated()
+- 01:43:13.610 INFO: GET 200 /images/banner.png
+- 01:43:13.625 INFO: GET 200 /images/info_black-128x128.png
+- 01:43:13.641 INFO: GET 404 /images/bg_header.jpg
+- 01:43:13.641 INFO: GET 404 /images/splash_bg.jpg
+- 01:43:13.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/
+- 01:43:18.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/
+- 01:43:18.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/#
+- 01:43:20.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/#
+- 01:43:20.672 DEBUG: OnContextCreated()
+- 01:43:20.079 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 01:43:21.094 INFO: GET 404 /images/bg_header.jpg
+- 01:43:21.094 INFO: GET 404 /images/splash_bg.jpg
+- 01:43:21.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/evaluateEmbeddedObject.php
+- 01:43:22.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/evaluateEmbeddedObject.php
+- 01:43:23.938 DEBUG: OnContextCreated()
+- 01:43:23.329 INFO: GET 200 /includes/loader.js
+- 01:43:24.219 INFO: GET 200 /src/result_report_embedded_object_based_search.php?threshold=22
+- 01:43:24.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/result_report_embedded_object_based_search.php?threshold=22
+- 01:43:27.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/result_report_embedded_object_based_search.php?threshold=22
+- 01:43:27.938 DEBUG: OnContextCreated()
+- 01:43:27.329 INFO: GET 200 /src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+- 01:43:27.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+[0406/014327.403:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0406/014327.403:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+[0406/014327.403:INFO:CONSOLE(66)] "Uncaught (in promise) Error: Container is not defined", source: https://www.gstatic.com/charts/45.2/js/jsapi_compiled_default_module.js (66)
+- 01:43:31.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/result_report_embedded_object_based_search_graph.php?ssdeepJpegFSCORE=0.46153846153846&ssdeepBmpFSCORE=0&ssdeepGifFSCORE=0.46153846153846&ssdeepTiffFSCORE=0.23008849557522&sdhashJpegFSCORE=0.6013986013986&sdhashBmpFSCORE=0&sdhashGifFSCORE=0.51851851851852&sdhashTiffFSCORE=0.1981981981982&ssdeepJpegMCC=0.52758934358449&ssdeepBmpMCC=0&ssdeepGifMCC=0.52758934358449&ssdeepTiffMCC=0.3442978847374&sdhashJpegMCC=0.63591565064365&sdhashBmpMCC=0&sdhashGifMCC=0.57133603988049&sdhashTiffMCC=0.31638759810489&ssdeepJpegACC=0&ssdeepBmpACC=0&ssdeepGifACC=0&ssdeepTiffACC=0&sdhashJpegACC=0.943&sdhashBmpACC=0.9&sdhashGifACC=0.935&sdhashTiffACC=0.911&ssdeepPPTXJpegFSCORE=0.058252427184466&ssdeepPPTXBmpFSCORE=0&ssdeepPPTXGifFSCORE=0.058252427184466&ssdeepPPTXTiffFSCORE=0&sdhashPPTXJpegFSCORE=0.7012987012987&sdhashPPTXBmpFSCORE=0&sdhashPPTXGifFSCORE=0.52941176470588&sdhashPPTXTiffFSCORE=0.21428571428571&ssdeepPPTXJpegMCC=0.16456379836159&ssdeepPPTXBmpMCC=0&ssdeepPPTXGifMCC=0.16456379836159&ssdeepPPTXTiffMCC=0&sdhashPPTXJpegMCC=0.71675802882256&sdhashPPTXBmpMCC=0&sdhashPPTXGifMCC=0.57974096376075&sdhashPPTXTiffMCC=0.33062326126679&ssdeepPPTXJpegACC=0&ssdeepPPTXBmpACC=0&ssdeepPPTXGifACC=0&ssdeepPPTXTiffACC=0&sdhashPPTXJpegACC=0.954&sdhashPPTXBmpACC=0.9&sdhashPPTXGifACC=0.936&sdhashPPTXTiffACC=0.912&numOfJpegDocx=0&numOfBmpDocx=0&numOfGifDocx=0&numOfTiffDocx=0&numOfJpegDocxWithOutImg=0&numOfBmpDocxWithOutImg=0&numOfGifDocxWithOutImg=0&numOfTiffDocxWithOutImg=0&numOfJpeg=0&numOfBmp=0&numOfGif=0&numOfTiff=0&ssdeepAvgPre=1&sdhashAvgPre=1&ssdeepJpegPRE=1&ssdeepBmpPRE=0&ssdeepGifPRE=1&ssdeepTiffPRE=1&sdhashJpegPRE=1&sdhashBmpPRE=0&sdhashGifPRE=1&sdhashTiffPRE=1&ssdeepJpegRECALL=0.3&ssdeepBmpRECALL=0&ssdeepGifRECALL=0.3&ssdeepTiffRECALL=0.13&sdhashJpegRECALL=0.43&sdhashBmpRECALL=0&sdhashGifRECALL=0.35&sdhashTiffRECALL=0.11&ssdeepPPTXJpegPRE=1&ssdeepPPTXBmpPRE=0&ssdeepPPTXGifPRE=1&ssdeepPPTXTiffPRE=0&sdhashPPTXJpegPRE=1&sdhashPPTXBmpPRE=0&sdhashPPTXGifPRE=1&sdhashPPTXTiffPRE=1&ssdeepPPTXJpegRECALL=0.03&ssdeepPPTXBmpRECALL=0&ssdeepPPTXGifRECALL=0.03&ssdeepPPTXTiffRECALL=0&sdhashPPTXJpegRECALL=0.54&sdhashPPTXBmpRECALL=0&sdhashPPTXGifRECALL=0.36&sdhashPPTXTiffRECALL=0.12
+- 01:43:31.422 DEBUG: OnContextCreated()
+- 01:43:31.829 INFO: GET 200 /src/evaluateEmbeddedObject.php
+- 01:43:31.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/evaluateEmbeddedObject.php
+- 01:43:34.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/evaluateEmbeddedObject.php
+- 01:43:34.984 DEBUG: OnContextCreated()
+- 01:43:34.375 INFO: GET 200 /src/evaluate_single_common_object_identification_AllInOne.php
+- 01:43:34.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/evaluate_single_common_object_identification_AllInOne.php
+- 01:43:37.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/evaluate_single_common_object_identification_AllInOne.php
+- 01:43:37.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/evaluate_single_common_object_identification_AllInOne.php#
+- 01:43:39.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/evaluate_single_common_object_identification_AllInOne.php#
+- 01:43:39.250 DEBUG: OnContextCreated()
+- 01:43:39.657 INFO: GET 200 /src/evaluateFragment.php
+- 01:43:39.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/evaluateFragment.php
+- 01:43:41.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/evaluateFragment.php
+- 01:43:41.000 DEBUG: OnContextCreated()
+- 01:43:41.391 INFO: GET 200 /src/evaluate_fragment_search.php
+- 01:43:41.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/evaluate_fragment_search.php
+- 01:43:54.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/evaluate_fragment_search.php
+- 01:43:54.141 DEBUG: OnContextCreated()
+- 01:43:59.922 INFO: POST 200 /src/FragmentIdentification_ssdeep.php?case=1&threshold=22
+- 01:43:59.954 INFO: GET 200 /images/Icons/Next1.jpg
+- 01:43:59.954 INFO: GET 200 /images/Icons/Previous1.jpg
+- 01:43:59.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/FragmentIdentification_ssdeep.php?case=1&threshold=22
+- 01:44:05.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/FragmentIdentification_ssdeep.php?case=1&threshold=22
+- 01:44:05.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/FragmentIdentification_ssdeep.php?case=1&threshold=22#
+- 01:44:06.204 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54245/src/FragmentIdentification_ssdeep.php?case=1&threshold=22#
+- 01:44:06.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54245/src/FragmentIdentification_ssdeep.php?case=1&threshold=22#
+- 01:44:09.516 DEBUG: WM_DESTROY
+- 01:44:09.516 DEBUG: RemoveBrowserWindow(): hwnd = 1449028
+- 01:44:09.532 INFO: Stopping Mongoose web server
+- 01:44:09.532 DEBUG: Mongoose webserver stopped immediately
+- 01:44:09.532 DEBUG: OnBeforeClose() hwnd=1448620
+- 01:44:09.563 DEBUG: RemoveBrowserWindow(): hwnd = 1448620
+- 01:44:09.579 DEBUG: GetBrowserWindow(): not found, hwnd = 1448620
+- 01:44:09.579 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:44:09.594 DEBUG: Calling CefQuitMessageLoop()
+- 01:44:09.297 DEBUG: OnBrowserDestroyed()
+- 01:44:09.750 INFO: Ended application
+- 01:44:09.750 INFO: --------------------------------------------------------
